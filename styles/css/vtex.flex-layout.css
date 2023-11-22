@@ -1,6 +1,12 @@
-.flexRowContent--menu-link,
-.flexRowContent--main-header {
-  padding: 0 0.5rem;
+.flexRow{
+  padding: 10px;
+}
+
+.flexRow--categories{
+  padding: 1.5rem 0px;
+}
+.flexRow--selling-price{
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 40em) {
@@ -17,8 +23,18 @@
   }
 }
 
+.flexColChild--deals-col {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--deals {
+  padding: 17px 0px;
+  margin-bottom: 0px;
+}
+
 .flexRowContent--menu-link {
-  background-color: #03044e;
+  background-color: #1DB9EF;
   color: #fff;
 }
 
@@ -41,9 +57,19 @@
   color: #727273;
   font-size: 14px;
 }
+.flexCol--deals-col{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.flexCol--deals-col-2{
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
 
 .flexRow--deals {
-  background-color: #0F3E99;
+  background-color: #ffffff;
   padding: 14px 0px;
 }
 

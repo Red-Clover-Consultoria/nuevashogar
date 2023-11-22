@@ -1,3 +1,22 @@
+.imageElement--categories{
+  height: 150px;
+  width: 150px;
+  padding: 15px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 2px solid #c1c1c1;
+}
+
+.infoCardContainer--info-card-home{
+  border-radius: 10px;
+}
+
+.infoCardHeadline--info-card-home{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
@@ -6,12 +25,6 @@
   text-decoration: underline;
 }
 
-.infoCardContainer--info-card-home {
-  max-width: 1520px;
-  margin: 0 auto;
-  background-color: #e6f1e6;
-  padding: 0px;
-}
 
 .newsletter {
   background-color: #03054e;

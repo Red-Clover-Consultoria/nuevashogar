@@ -4,23 +4,30 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#smart-tvs",
+      "menu-item#celulares",
+      "menu-item#climatizacion",
+      "menu-item#electrodomesticos",
+      "menu-item#tecnologia",
+      "menu-item#muebles",
+      "menu-item#hogar",
+      "menu-item#cuidado-salud",
+      "menu-item#jardin",
+      "menu-item#rodados"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#smart-tvs": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "smart-tvs",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "#",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Smart Tvs",
+        "text": "Smart Tvs"
       }
     },
     "blocks": [
@@ -90,24 +97,24 @@
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#celulares": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-celulares",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "#",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Celulares",
+        "text": "Celulares"
       }
     }
   },
-  "menu-item#more": {
+  "menu-item#climatizacion": {
     "props": {
-      "id": "menu-item-custom-sale",
+      "id": "climatizacion",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -115,8 +122,134 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Climatizacion",
+        "text": "Climatizacion"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#electrodomesticos": {
+    "props": {
+      "id": "electrodomesticos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Electrodomesticos",
+        "text": "Electrodomesticos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#tecnologia": {
+    "props": {
+      "id": "tecnologia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Tecnologia",
+        "text": "Tecnologia"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#muebles": {
+    "props": {
+      "id": "muebles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Muebles",
+        "text": "Muebles"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#hogar": {
+    "props": {
+      "id": "hogar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Hogar",
+        "text": "Hogar"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#cuidado-salud": {
+    "props": {
+      "id": "cuidado-salud",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Cuidado Personal & Salud",
+        "text": "Cuidado Personal & Salud"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#jardin": {
+    "props": {
+      "id": "jardin",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Jardin",
+        "text": "Jardin"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "menu-item#rodados": {
+    "props": {
+      "id": "rodados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Rodados",
+        "text": "Rodados"
       }
     },
     "blocks": [

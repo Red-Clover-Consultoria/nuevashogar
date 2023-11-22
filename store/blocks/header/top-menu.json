@@ -1,13 +1,13 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#nosotros",
+      "menu-item#sucursales"
     ]
   },
-  "menu-item#shop": {
+  "menu-item#nosotros": {
     "props": {
-      "id": "menu-item-shop",
+      "id": "menu-item-nosotros",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -15,8 +15,23 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+        "tagTitle": "Nosotros",
+        "text": "Nosotros"
+      }
+    }
+  },
+  "menu-item#sucursales": {
+    "props": {
+      "id": "menu-item-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
       }
     }
   },

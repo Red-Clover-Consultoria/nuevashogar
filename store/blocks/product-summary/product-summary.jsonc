@@ -4,11 +4,11 @@
       "stack-layout#prodsum",
       "product-summary-name",
       "flex-layout.col#productRating",
-      "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
+      "product-summary-space",
       "product-installments#summary",
-      "add-to-cart-button"
+      "add-to-cart-button" 
     ]
   },
   "flex-layout.col#productRating": {
@@ -30,7 +30,7 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
-      "maxHeight": 300
+      "height": 250
     }
   },
 
@@ -59,6 +59,8 @@
   },
   "flex-layout.row#selling-price-savings": {
     "props": {
+      "blockClass":  "selling-price",
+      "horizontalAlign": "center",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,

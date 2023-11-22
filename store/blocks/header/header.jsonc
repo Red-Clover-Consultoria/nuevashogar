@@ -1,9 +1,15 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -12,14 +18,14 @@
       "sticky-layout#4-desktop"
     ]
   },
-
   "flex-layout.row#1-desktop": {
-    "children": ["telemarketing"],
+    "children": [
+      "telemarketing"
+    ],
     "props": {
       "fullWidth": true
     }
   },
-  
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -29,9 +35,12 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
+      "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "search-bar",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#websites",
+      "minicart.v2"
     ]
   },
   "flex-layout.col#spacer": {
@@ -43,7 +52,9 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": [
+      "flex-layout.row#4-desktop"
+    ]
   },
   "flex-layout.row#4-desktop": {
     "props": {
@@ -55,41 +66,48 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      // "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu"
+      // "flex-layout.col#spacer",
+      // "search-bar",
+      // "locale-switcher",
+      // "login",
+      // "minicart.v2"
     ]
   },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo#desktop"]
+    "children": [
+      "logo#desktop"
+    ]
   },
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
   },
   "logo#desktop": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "url": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/7a905d9e-fa52-47a8-96cc-3cf4c8836d16___b86ce84839e3c9db81be5a5914412c50.png",
+      "width": "150"
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -107,20 +125,27 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": [
+      "menu#drawer"
+    ]
   },
-
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#smart-tvs",
+      "menu-item#celulares",
+      "menu-item#climatizacion",
+      "menu-item#electrodomesticos",
+      "menu-item#tecnologia",
+      "menu-item#muebles",
+      "menu-item#hogar",
+      "menu-item#cuidado-salud",
+      "menu-item#jardin",
+      "menu-item#rodados"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",

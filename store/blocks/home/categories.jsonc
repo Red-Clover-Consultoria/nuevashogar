@@ -1,0 +1,180 @@
+{
+    "flex-layout.row#categories": {
+        "children": [
+            "flex-layout.col#smart-tv",
+            "flex-layout.col#celulares",
+            "flex-layout.col#climatizacion",
+            "flex-layout.col#lavarropas",
+            "flex-layout.col#heladeras",
+            "flex-layout.col#cocinas",
+            "flex-layout.col#termotanques"
+        ],
+        "props": {
+            "blockClass": "categories"
+        }
+    },
+    // COLUMNAS 
+    "flex-layout.col#smart-tv": {
+        "children": [
+            "image#smart-tv",
+            "rich-text#smart-tv"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#celulares": {
+        "children": [
+            "image#celulares",
+            "rich-text#celulares"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#climatizacion": {
+        "children": [
+            "image#climatizacion",
+            "rich-text#climatizacion"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#lavarropas": {
+        "children": [
+            "image#lavarropas",
+            "rich-text#lavarropas"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#heladeras": {
+        "children": [
+            "image#heladeras",
+            "rich-text#heladeras"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#cocinas": {
+        "children": [
+            "image#cocinas",
+            "rich-text#cocinas"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#termotanques": {
+        "children": [
+            "image#termotanques",
+            "rich-text#termotanques"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    // IMAGENES 
+    "image#smart-tv": {
+        "props": {
+            "blockClass": "categories",
+            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/b4af3ac4-f025-4859-ad02-798d1115972c___ca4f4c7307948901353555aedd63e4d2.webp",
+            "maxHeight": 150
+        }
+    },
+    "image#celulares": {
+        "props": {
+            "blockClass": "categories",
+            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/4c84c8fc-368d-474d-8430-7f9323ffc929___33460954014ed93299db99d0beb6272e.png",
+            "maxHeight": 150
+        }
+    },
+    "image#climatizacion": {
+        "props": {
+            "blockClass": "categories",
+            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/cbb541af-4895-45d1-b34c-4c956739aa14___63e4d88a5a7a2b08257f28a8e86a81e1.png",
+            "maxHeight": 150
+        }
+    },
+    "image#lavarropas": {
+        "props": {
+            "blockClass": "categories",
+            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/ca31285f-8f13-4fb0-9fce-5a97385eb10c___6947e12f45ef83db56afe7a9886f121c.avif",
+            "maxHeight": 150
+        }
+    },
+    "image#heladeras": {
+        "props": {
+            "blockClass": "categories",
+            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/46a9d0b4-58e1-49da-90fc-619f72c63062___b29f9d69e8462abc94e85521b40bdd88.webp",
+            "maxHeight": 150
+        }
+    },
+    "image#cocinas": {
+        "props": {
+            "blockClass": "categories",
+            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/5e7500b5-7abf-4705-932f-df3b92455ca0___5a0b4cd4c34633db21dee6a2e2a45979.png",
+            "maxHeight": 150
+        }
+    },
+    "image#termotanques": {
+        "props": {
+            "blockClass": "categories",
+            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/a08b3922-777b-4ee6-807c-a94ca6466314___4a70cabd556bd07ace8f6ee5f5be04fe.png",
+            "maxHeight": 150
+        }
+    },
+    // TEXTOS 
+    "rich-text#smart-tv": {
+        "props": {
+            "text": "##### Smart Tvs",
+            "blockClass": "categories",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#celulares": {
+        "props": {
+            "text": "##### Celulares",
+            "blockClass": "categories",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#climatizacion": {
+        "props": {
+            "text": "##### Climatización",
+            "blockClass": "categories",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#lavarropas": {
+        "props": {
+            "text": "##### Lavarropas",
+            "blockClass": "categories",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#heladeras": {
+        "props": {
+            "text": "##### Heladeras",
+            "blockClass": "categories",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#cocinas": {
+        "props": {
+            "text": "##### Cocinas",
+            "blockClass": "categories",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#termotanques": {
+        "props": {
+            "text": "##### Termotanques",
+            "blockClass": "categories",
+            "textPosition": "CENTER"
+        }
+    }
+}

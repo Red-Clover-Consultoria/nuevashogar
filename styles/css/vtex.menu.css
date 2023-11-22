@@ -1,0 +1,10 @@
+.menuContainerNav{
+    display: flex;
+    align-items: center;
+
+}
+
+.styledLinkContent{
+    font-size: 1.2rem;
+    font-weigth: bold;
+}

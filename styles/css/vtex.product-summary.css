@@ -1,4 +1,13 @@
-.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+.element {
+  transform: scale(0.8);
+  padding: 0.7rem;
+  border: 2px solid #c1c1c1;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px #777777;
+}
+
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround,
+.skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }
 
@@ -26,7 +35,7 @@
 .brandName {
   font-weight: 600;
   font-size: 18px;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 .container {

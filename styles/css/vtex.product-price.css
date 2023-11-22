@@ -77,3 +77,13 @@
   color: #FFFFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
+
+.currencyGroup,
+.currencyDecimal,
+.currencyCode--summary,
+.currencyInteger--summary,
+.currencyInteger--summary,
+.currencyFraction--summary{
+  font-size: 2.2rem;
+  color: #1DB9EF;
+}
