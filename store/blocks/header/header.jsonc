@@ -14,7 +14,7 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#3-desktop",
+      // "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
@@ -53,6 +53,8 @@
       "blockClass": "sticky-header"
     },
     "children": [
+      "flex-layout.row#3-desktop",
+
       "flex-layout.row#4-desktop"
     ]
   },
@@ -96,7 +98,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/7a905d9e-fa52-47a8-96cc-3cf4c8836d16___b86ce84839e3c9db81be5a5914412c50.png",
-      "width": "150"
+      "width": "200"
     }
   },
   "header-layout.mobile": {

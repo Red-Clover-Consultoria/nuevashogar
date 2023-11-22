@@ -1,5 +1,9 @@
-.flexRow{
-  padding: 10px;
+
+.flexRowContent--selling-price :global(.vtex-product-price-1-x-currencyContainer){
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #0066B2;
 }
 
 .flexRow--categories{

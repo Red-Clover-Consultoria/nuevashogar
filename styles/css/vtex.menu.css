@@ -1,10 +1,23 @@
-.menuContainerNav{
-    display: flex;
-    align-items: center;
-
+.menuContainerNav {
+  display: flex;
+  align-items: center;
 }
 
-.styledLinkContent{
-    font-size: 1.2rem;
-    font-weigth: bold;
+.styledLinkContent {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #9d9d9c;
+  font-weigth: bold;
+}
+
+.styledLinkContent--nosotros,
+.styledLinkContent--sucursales {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #ffffff !important;
+  font-weigth: bold;
 }

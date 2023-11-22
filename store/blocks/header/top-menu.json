@@ -7,6 +7,7 @@
   },
   "menu-item#nosotros": {
     "props": {
+      "blockClass": "nosotros",
       "id": "menu-item-nosotros",
       "type": "custom",
       "iconId": null,
@@ -22,6 +23,7 @@
   },
   "menu-item#sucursales": {
     "props": {
+      "blockClass":"sucursales",
       "id": "menu-item-sucursales",
       "type": "custom",
       "iconId": null,

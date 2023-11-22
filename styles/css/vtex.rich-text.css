@@ -5,13 +5,23 @@
 .paragraph--deals {
   font-size: 13px;
   line-height: 16px;
-  color: #706F6F;
+  color: #706f6f;
   padding: 0 15px;
 }
 .link--deals {
+  font-size: 12px;
   text-decoration: none;
-  color: #3c3c3c;
-  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #706f6f;
+}
+
+.wrapper--categories :global(.vtex-rich-text-0-x-heading) {
+  font-size: 12px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: #706f6f;
 }
 
 .container--deals {
@@ -19,8 +29,6 @@
   text-align: center;
   justify-content: center;
 }
-
-
 
 .container--deals .paragraph {
   margin: 0;
