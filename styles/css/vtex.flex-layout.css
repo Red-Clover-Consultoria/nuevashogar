@@ -9,6 +9,9 @@
 .flexRow--categories{
   padding: 1.5rem 0px;
 }
+.flexCol--categories{
+  padding: 1.5rem 0;
+}
 .flexRow--selling-price{
   font-size: 1.5rem;
 }
@@ -49,7 +52,7 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: #1DB9EF;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {

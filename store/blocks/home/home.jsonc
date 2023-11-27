@@ -5,7 +5,7 @@
       "flex-layout.row#deals",
       "flex-layout.row#categories",
       "__fold__",
-      "image#ofertas-destacadas",
+      "flex-layout.row#ofertas-destacadas",
       "flex-layout.row#shelf",
       "flex-layout.row#baners",
       "flex-layout.row#shelf",
@@ -16,7 +16,7 @@
       "flex-layout.row#baners",
       "flex-layout.row#shelf",
       "flex-layout.row#shelf",
-      "image#ofertas-destacadas",
+      "flex-layout.row#ofertas-destacadas2",
       "flex-layout.row#shelf"
       // "rich-text#question",
       // "rich-text#link",
@@ -33,11 +33,7 @@
       "images": [
         {
           "image": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/17222015-5d5c-48d1-94a4-f89c9b3b25f1___532ac43c31db31125c42d4472807f9ee.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "mobileImage": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/2b9c0389-6710-4744-b769-c284f9023a59___001cef75423fef4df20e5e93895a221d.jpg"
         }
       ]
     }
@@ -66,7 +62,24 @@
       "blockClass": "carousel"
     }
   },
+  "flex-layout.row#ofertas-destacadas": {
+    "children": [
+      "image#ofertas-destacadas"
+    ]
+  },
+  "flex-layout.row#ofertas-destacadas2": {
+    "children": [
+      "image#ofertas-destacadas"
+    ]
+  },
   "image#ofertas-destacadas": {
+    "props": {
+      "blockClass": "ofertas",
+      "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/3db663ce-d8d7-4613-88dc-d5e36342d97e___3ad86ed93b012ec996f020cf567fa6e7.webp",
+      "maxHeight": 350
+    }
+  },
+  "image#ofertas-destacadas2": {
     "props": {
       "blockClass": "ofertas",
       "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/3db663ce-d8d7-4613-88dc-d5e36342d97e___3ad86ed93b012ec996f020cf567fa6e7.webp",
@@ -104,24 +117,39 @@
       },
       "showPaginationDots": "never",
       "infinite": true,
-      "fullWidth": true,
+      "fullWidth": false,
       "blockClass": "shelf"
     }
   },
   "flex-layout.row#baners": {
     "children": [
-      "info-card#home",
-      "info-card#home2"
+      "image#home",
+      "image#home2"
     ],
     "props": {
       "colGap": 5
     }
   },
+  "image#home": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+    }
+  },
+  "image#home2": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+    }
+  },
+  "image#home3": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+    }
+  },
   "flex-layout.row#baners2": {
     "children": [
-      "info-card#home",
-      "info-card#home2",
-      "info-card#home3"
+      "image#home",
+      "image#home2",
+      "image#home3"
     ],
     "props": {
       "colGap": 5

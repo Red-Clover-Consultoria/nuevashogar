@@ -1,6 +1,14 @@
 {
     "flex-layout.row#categories": {
         "children": [
+            "slider-layout#categories"
+        ],
+        "props": {
+            "blockClass": "categories"
+        }
+    },
+    "slider-layout#categories": {
+        "children": [
             "flex-layout.col#smart-tv",
             "flex-layout.col#celulares",
             "flex-layout.col#climatizacion",
@@ -10,6 +18,14 @@
             "flex-layout.col#termotanques"
         ],
         "props": {
+            "itemsPerPage": {
+                "desktop": 7,
+                "tablet": 4,
+                "phone": 1
+            },
+            "showPaginationDots": "never",
+            "infinite": true,
+            "fullWidth": false,
             "blockClass": "categories"
         }
     },
@@ -20,7 +36,8 @@
             "rich-text#smart-tv"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass": "categories"
         }
     },
     "flex-layout.col#celulares": {
@@ -29,7 +46,8 @@
             "rich-text#celulares"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass": "categories"
         }
     },
     "flex-layout.col#climatizacion": {
@@ -38,7 +56,8 @@
             "rich-text#climatizacion"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass": "categories"
         }
     },
     "flex-layout.col#lavarropas": {
@@ -47,7 +66,8 @@
             "rich-text#lavarropas"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass": "categories"
         }
     },
     "flex-layout.col#heladeras": {
@@ -56,7 +76,8 @@
             "rich-text#heladeras"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass": "categories"
         }
     },
     "flex-layout.col#cocinas": {
@@ -65,7 +86,8 @@
             "rich-text#cocinas"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass": "categories"
         }
     },
     "flex-layout.col#termotanques": {
@@ -74,7 +96,8 @@
             "rich-text#termotanques"
         ],
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "blockClass": "categories"
         }
     },
     // IMAGENES 

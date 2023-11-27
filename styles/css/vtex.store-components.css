@@ -1,6 +1,10 @@
+.imageElement--ofertas{
+  width: 100%;
+}
+
 .imageElement--categories{
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   padding: 15px;
   object-fit: cover;
   border-radius: 100%;

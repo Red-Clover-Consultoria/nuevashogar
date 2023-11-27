@@ -14,7 +14,6 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      // "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
   },
@@ -54,7 +53,6 @@
     },
     "children": [
       "flex-layout.row#3-desktop",
-
       "flex-layout.row#4-desktop"
     ]
   },
@@ -114,8 +112,8 @@
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
-      "logo#mobile",
       "flex-layout.col#spacer",
+      "logo#mobile",
       "login",
       "minicart.v2"
     ],
@@ -152,9 +150,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/7a905d9e-fa52-47a8-96cc-3cf4c8836d16___b86ce84839e3c9db81be5a5914412c50.png",
+      "width": "150"
+      // "height": "27.5"
     }
   }
 }
