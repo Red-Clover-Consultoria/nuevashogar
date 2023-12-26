@@ -1,5 +1,6 @@
 {
     "flex-layout.row#categories": {
+        "title": "Categorias destacadas",
         "children": [
             "slider-layout#categories"
         ],

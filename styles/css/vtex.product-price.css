@@ -22,8 +22,11 @@
 }
 
 .savings {
-  font-weight: 500;
-  color: #79b03a;
+  font-weight: bold;
+  color: #ffffff;
+  background: #1DB9EF;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .sellingPriceValue--summary {
@@ -49,6 +52,7 @@
   font-weight: 600;
   vertical-align: baseline;
   color: #ffffff;
+  box-shadow: 10px 4px 14px 0px rgba(0, 0, 0, 0.08);
 }
 
 .savings-discount--summary {
@@ -96,4 +100,12 @@
 
 .currencyGroup--summary{
   color: #0066b2;
+}
+
+.currencyCode,
+.currencyInteger,
+.currencyGroup,
+.currencyDecimal,
+.currencyFraction{
+  font-weight: bold;
 }

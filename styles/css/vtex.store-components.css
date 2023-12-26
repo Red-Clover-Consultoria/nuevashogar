@@ -1,26 +1,25 @@
-.imageElement--ofertas{
+.imageElement--ofertas {
   width: 100%;
 }
 
-.imageElement--categories{
+.imageElement--categories {
   height: 100px;
   width: 100px;
   padding: 15px;
   object-fit: cover;
   border-radius: 100%;
-  border: 2px solid #c1c1c1;
-  box-shadow: 0px 0px 10px #777777;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 10px 4px 14px 0px rgba(0, 0, 0, 0.08);
 }
 
-.infoCardContainer--info-card-home{
+.infoCardContainer--info-card-home {
   border-radius: 10px;
 }
 
-.infoCardHeadline--info-card-home{
+.infoCardHeadline--info-card-home {
   color: #ffffff;
   font-weight: bold;
 }
-
 
 .notificationBarContainer {
   background-color: #e6f1e6;
@@ -28,17 +27,6 @@
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
-}
-
-
-.newsletter {
-  background-color: #03054e;
-  max-width: 1528px;
-  margin: 0 auto;
-}
-
-.newsletter .container {
-  padding: 60px 10px;
 }
 
 .label {
@@ -84,11 +72,8 @@
 }
 
 @media only screen and (min-width: 640px) {
-  .newsletter .container {
-    padding: 140px;
-  }
   .label {
-     font-size: 40px;
+    font-size: 40px;
   }
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
@@ -128,4 +113,139 @@
 
 .image {
   image-rendering: -webkit-optimize-contrast;
+}
+
+.productImage--pdp{
+  box-shadow: 10px 4px 14px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 17px;
+  margin: 10px;
+}
+
+.carouselGaleryThumbs {
+  display: flex;
+  justify-content: center;
+}
+.carouselGaleryThumbs :first-child {
+  width: 100%;
+}
+.carouselGaleryThumbs :first-child :first-child {
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 22px;
+}
+.productImagesThumb {
+  width: 103px !important;
+  height: 103px !important;
+  background-color: transparent;
+}
+.thumbImg {
+  width: 103px !important;
+  height: 103px !important;
+  border-radius: 17px;
+  box-shadow: 10px 4px 14px 0px rgba(0, 0, 0, 0.08);
+}
+
+.shippingContainer {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin: 15px 0;
+}
+
+.shippingContainer
+  :global(.vtex-address-form__postalCode)
+  :last-child:not(:global(.vtex-input-prefix__group)):not(:global(.vtex-input__suffix)) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: max-content;
+  color: #888C8A;
+  line-height: 12px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.shippingContainer :global(.vtex-address-form__postalCode) {
+  /*max-width: 240px;*/
+  padding-bottom: 0;
+}
+
+.shippingContainer :global(.vtex__icon-external-link) {
+  display: none;
+}
+
+.shippingContainer :global(.vtex-input-prefix__group) {
+  border: 1px solid #c8ccca;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 40px;
+}
+
+.shippingContainer :global(.vtex-address-form-4-x-input) {
+  padding: 0 0 0 0px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  color: #888C8A;
+}
+
+.shippingContainer :global(.vtex-input__suffix) {
+  padding: 0 0px 0 0;
+}
+
+.shippingContainer :global(.vtex-button) {
+  flex: 1;
+  height: 40px;
+  border: none;
+  outline: none;
+  transition: 0.2s all;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.shippingContainer :global(.vtex-button__label) {
+  background: #fff;
+  height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #888c8a;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #c8ccca;
+  padding: 0px;
+}
+
+:global(.vtex-store-components-3-x-shippingConteiner){
+  font-size: 11px;
+}
+
+
+:global(.vtex-store-components-3-x-shippingTableLabel){
+  font-size: 11px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--collection-panel-img){
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-imageElement--medios-pago-img){
+  width: 50%;
+}
+
+@media only screen and (max-width: 375px) {
+  .shippingContainer :global(.vtex-input__label)::before {
+    font-size: 10px;
+  }
+}
+
+.shippingTableRadioBtn {
+  visibility: hidden;
+}
+
+.swiperBullet--active :global(.vtex-store-components-3-x-swiperBullet){
+  background: red;
 }

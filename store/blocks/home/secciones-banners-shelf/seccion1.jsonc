@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#ofertas-destacadas": {
+        "title": "Ofertas destacadas",
+        "children": [
+            "image#ofertas-destacadas"
+        ]
+    },
+    "image#ofertas-destacadas": {
+        "props": {
+            "blockClass": "ofertas",
+            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/3db663ce-d8d7-4613-88dc-d5e36342d97e___3ad86ed93b012ec996f020cf567fa6e7.webp",
+            "maxHeight": 350
+        }
+    },
+    "flex-layout.row#shelf": {
+        "title": "Listado de productos 1",
+        "children": [
+            "list-context.product-list#demo1"
+        ]
+    },
+    "list-context.product-list#demo1": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#demo-products"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+    "slider-layout#demo-products": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "showPaginationDots": "never",
+            "infinite": true,
+            "fullWidth": false,
+            "blockClass": "shelf"
+        }
+    }
+}

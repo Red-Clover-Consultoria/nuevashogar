@@ -1,0 +1,44 @@
+/* .listContainer--tab-container{
+    width: 100%;
+    border-radius: 22px;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px;
+}
+.listItemActive, .listItem {
+    height: 48px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.listItemActive {
+    border-radius: 17px;
+    background: #FFF;
+}
+
+.listItem :global(.vtex-button) {
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: #000;
+    font-family: poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin: 0 auto;
+}
+
+.listItemActive :global(.vtex-button__label) {
+    padding: 0px!important;
+    margin: 0 auto;
+}
+.listItem :global(.vtex-button__label) {
+    padding: 0px !important;
+    margin: 0 auto;
+}
+
+.listItem :global(.vtex-button):hover {
+    background-color: transparent;
+} */

@@ -21,3 +21,15 @@
   margin-bottom: .5rem;
 }
 
+
+.paginationDot--isActive{
+  background: #1DB9EF;
+}
+
+.caretIcon--carousel{
+  color: white;
+}
+
+..paginationDot--carousel{
+  color: white;
+}

@@ -6,6 +6,12 @@
   color: #0066B2;
 }
 
+.flexCol--right-col{
+  padding: 1rem;
+  border-radius: 17px;
+  box-shadow: 10px 4px 14px 0px rgba(0, 0, 0, 0.08);
+}
+
 .flexRow--categories{
   padding: 1.5rem 0px;
 }
@@ -14,6 +20,11 @@
 }
 .flexRow--selling-price{
   font-size: 1.5rem;
+}
+
+.flexRowContent--product-selling-price{
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (min-width: 40em) {
@@ -128,4 +139,9 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRow--cross{
+  max-width: 1280px;
+  margin: auto;
 }

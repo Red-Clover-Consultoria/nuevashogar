@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#baners": {
+        "title": "Banners x2",
+        "children": [
+            "image#section2-img1",
+            "image#section2-img2"
+        ],
+        "props": {
+            "colGap": 5
+        }
+    },
+    "image#section2-img1": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+        }
+    },
+    "image#section2-img2": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
+        }
+    },
+    "flex-layout.row#shelf2": {
+        "title": "Listado de productos 2",
+        "children": [
+            "list-context.product-list#demo2"
+        ]
+    },
+    "list-context.product-list#demo2": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#demo-products"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+    "flex-layout.row#shelf3": {
+        "title": "Listado de productos 3",
+        "children": [
+            "list-context.product-list#demo3"
+        ]
+    },
+    "list-context.product-list#demo3": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#demo-products"
+        ],
+        "props": {
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    }
+}

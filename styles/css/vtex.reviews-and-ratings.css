@@ -1,7 +1,12 @@
 .container {
   max-width: 96rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: 0px;
+}
+
+.container:first-child {
+  display: none !important;
 }
 
 .inlineContainer {
@@ -9,9 +14,21 @@
 }
 
 .star--filled {
-  color: #FFB100;
+  color: #1db9ef;
 }
 
 .star--empty {
-  color: #FFB100;
+  color: #1db9ef;
+}
+
+.reviewsRatingAverage,
+.reviewsRatingCount,
+.loginLink,
+.reviewsOrderBy,
+.reviewCommentsContainer {
+  display: none !important;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-container){
+  font-size: 0 !important;
 }

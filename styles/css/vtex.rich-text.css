@@ -104,3 +104,10 @@
     line-height: 1.3em;
   }
 }
+
+
+.wrapper--shipping{
+  line-height: 0;
+  color: #888C8A;
+  font-weight: 500;
+}

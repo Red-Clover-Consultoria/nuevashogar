@@ -1,5 +1,6 @@
 {
   "flex-layout.row#deals": {
+    "title": "Medios de pago / Retiro / Envio",
     "children": [
       "slider-layout"
     ],
