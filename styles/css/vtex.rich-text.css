@@ -105,9 +105,12 @@
   }
 }
 
-
 .wrapper--shipping{
   line-height: 0;
   color: #888C8A;
   font-weight: 500;
+}
+
+.paragraph--footer-paragraph{
+  color: white;
 }

@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-3-desktop",
+      "flex-layout.row#footer-bottom"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
@@ -80,10 +81,63 @@
       "blockClass": "footer"
     }
   },
+  "flex-layout.row#footer-bottom": {
+    "props": {
+      "blockClass": "footer-bottom",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#footer-development"
+    ]
+  },
+  "flex-layout.row#footer-development": {
+    "props": {
+      "blockClass": "footer-development",
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "rich-text#developed-by",
+      "image#redclover",
+      "image#vtex"
+    ]
+  },
+  "rich-text#developed-by": {
+    "props": {
+      "blockClass": "footer-paragraph",
+      "text": "Developed by"
+    }
+  },
+  "image#redclover": {
+    "props": {
+      "blockClass": "footer-redclover-icon",
+      "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/a1a1a116-c905-4564-8330-74f3961281d1___9d30654b5c5011f7d43d520945af9984.svg",
+      "title": "Red Clover",
+      "link": {
+        "url": "https://www.redclover.com.ar",
+        "attributeTitle": "Red Clover",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "blockClass": "footer-vtex-icon",
+      "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/7c733a64-92d0-42b4-bd13-b6eb722f381f___d4c408bc42fc2314d38df59833e76009.svg",
+      "title": "Lop",
+      "link": {
+        "url": "https://www.vtex.com",
+        "attributeTitle": "VTEX",
+        "openNewTab": true
+      }
+    }
+  },
+  ///// MOBILE
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#footer-bottom"
     ]
   },
   "flex-layout.row#2-footer-mobile": {

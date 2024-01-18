@@ -1,3 +1,11 @@
-.cartIcon{
-    color: #ffffff;
+.cartIcon {
+  color: #ffffff;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+  font-size: 0;
+}
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+  content: "Comprar";
+  font-size: 1.1rem;
 }

@@ -115,7 +115,7 @@
   image-rendering: -webkit-optimize-contrast;
 }
 
-.productImage--pdp{
+.productImage--pdp {
   box-shadow: 10px 4px 14px 0px rgba(0, 0, 0, 0.08);
   border-radius: 17px;
   margin: 10px;
@@ -155,12 +155,14 @@
 
 .shippingContainer
   :global(.vtex-address-form__postalCode)
-  :last-child:not(:global(.vtex-input-prefix__group)):not(:global(.vtex-input__suffix)) {
+  :last-child:not(:global(.vtex-input-prefix__group)):not(
+    :global(.vtex-input__suffix)
+  ) {
   position: absolute;
   top: 0;
   right: 0;
   width: max-content;
-  color: #888C8A;
+  color: #888c8a;
   line-height: 12px;
   font-size: 10px;
   font-weight: 400;
@@ -187,7 +189,7 @@
   font-size: 14px;
   text-align: center;
   font-weight: 700;
-  color: #888C8A;
+  color: #888c8a;
 }
 
 .shippingContainer :global(.vtex-input__suffix) {
@@ -219,20 +221,19 @@
   padding: 0px;
 }
 
-:global(.vtex-store-components-3-x-shippingConteiner){
+:global(.vtex-store-components-3-x-shippingConteiner) {
   font-size: 11px;
 }
 
-
-:global(.vtex-store-components-3-x-shippingTableLabel){
+:global(.vtex-store-components-3-x-shippingTableLabel) {
   font-size: 11px;
 }
 
-:global(.vtex-store-components-3-x-imageElement--collection-panel-img){
+:global(.vtex-store-components-3-x-imageElement--collection-panel-img) {
   width: 100%;
 }
 
-:global(.vtex-store-components-3-x-imageElement--medios-pago-img){
+:global(.vtex-store-components-3-x-imageElement--medios-pago-img) {
   width: 50%;
 }
 
@@ -246,6 +247,16 @@
   visibility: hidden;
 }
 
-.swiperBullet--active :global(.vtex-store-components-3-x-swiperBullet){
+.swiperBullet--active :global(.vtex-store-components-3-x-swiperBullet) {
   background: red;
+}
+
+.imageElementLink--footer-redclover-icon {
+  margin-left: 15px;
+  border-right: 1px solid #fff;
+  padding-right: 15px;
+}
+
+.imageElement--footer-m3-icon {
+  margin: 0 14px;
 }
