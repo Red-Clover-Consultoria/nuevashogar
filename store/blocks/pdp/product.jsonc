@@ -242,7 +242,8 @@
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
-      "showValueNameForImageVariation": true
+      "showValueNameForImageVariation": true,
+      "showVariationsLabels": false
     }
   },
   "flex-layout.row#buy-button": {
