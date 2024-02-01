@@ -95,6 +95,8 @@
   object-fit: cover !important;
 }
 
+
+
 .productImagesContainer--quickview .carouselGaleryThumbs {
   display: none;
 }
@@ -123,6 +125,7 @@
   box-shadow: 10px 4px 14px 0px rgba(0, 0, 0, 0.08);
   border-radius: 17px;
   margin: 10px;
+  background-color: white;
 }
 
 .carouselGaleryThumbs {
