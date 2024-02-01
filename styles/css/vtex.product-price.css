@@ -102,10 +102,13 @@
   color: #0066b2;
 }
 
+.currencyFraction,
+.currencyDecimal{
+  display: none;
+}
+
 .currencyCode,
 .currencyInteger,
-.currencyGroup,
-.currencyDecimal,
-.currencyFraction{
-  font-weight: bold;
+.currencyGroup{
+  font-weight: 900;
 }

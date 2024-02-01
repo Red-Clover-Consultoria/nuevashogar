@@ -2,7 +2,7 @@
   :global(.vtex-product-price-1-x-currencyContainer) {
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+  font-weight: 900;
   color: #0066b2;
 }
 
@@ -52,6 +52,7 @@
 }
 
 .flexRowContent--menu-link {
+  align-items: center;
   background-color: #1db9ef;
   color: #fff;
 }
@@ -89,6 +90,12 @@
 .flexRow--deals {
   background-color: #ffffff;
   padding: 14px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  .flexRow--deals {
+    background-color: transparent; 
+  }
 }
 
 .flexRow--deals .stretchChildrenWidth {
@@ -169,4 +176,3 @@
     padding: 12px 8px;
   }
 } */
-
