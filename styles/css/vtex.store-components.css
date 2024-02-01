@@ -111,6 +111,10 @@
   font-size: 30px;
 }
 
+:global(.vtex-product-summary-2-x-productNameContainer) {
+  text-align: center;
+}
+
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
