@@ -10,7 +10,6 @@
       "menu-item#electrodomesticos",
       "menu-item#tecnologia",
       "menu-item#muebles",
-      "menu-item#hogar",
       "menu-item#cuidado-salud",
       "menu-item#jardin",
       "menu-item#rodados"
@@ -184,24 +183,6 @@
       "vtex.menu@2.x:submenu#more"
     ]
   },
-  "menu-item#hogar": {
-    "props": {
-      "id": "hogar",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "Hogar",
-        "text": "Hogar"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
-  },
   "menu-item#cuidado-salud": {
     "props": {
       "id": "cuidado-salud",
@@ -258,7 +239,7 @@
   },
   "vtex.menu@2.x:submenu#more": {
     "props": {
-      "width": "100%"
+      "width": "auto"
     },
     "children": [
       "flex-layout.row#menu-more"
