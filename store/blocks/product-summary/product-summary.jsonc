@@ -2,6 +2,7 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
+      "vtex.store-components:product-brand",
       "product-summary-name",
       // "flex-layout.col#productRating",
       "product-list-price#summary",
@@ -10,6 +11,11 @@
       "product-installments#summary"
       // "add-to-cart-button" 
     ]
+  },
+  "vtex.store-components:product-brand": {
+    "props": {
+      "blockClass": "marca-product"
+    }
   },
   "flex-layout.col#productRating": {
     "props": {
