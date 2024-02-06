@@ -33,7 +33,7 @@
       "tab-list.item#description",
       "tab-list.item#specification"
     ],
-    "props":{
+    "props": {
       "blockClass": "description-specification"
     }
   },
@@ -212,6 +212,7 @@
       "blockClass": "right-col"
     },
     "children": [
+      "vtex.store-components:product-brand#pdp",
       "flex-layout.row#product-name",
       // "product-reviews.vtex", 
       "product-identifier.product",
@@ -230,6 +231,14 @@
       "shipping-simulator",
       "share#default"
     ]
+  },
+  "vtex.store-components:product-brand#pdp": {
+    "props": {
+      "blockClass": "marca-product",
+      "displayMode": "logo",
+      "fallbackToText": true,
+      "withLink": "logoAndText"
+    }
   },
   "flex-layout.row#product-name": {
     "props": {
