@@ -9,3 +9,12 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+.socialNetworksContainer--social-networks{
+  justify-content: end;
+  padding: 2px 15px;
+}
+
+.socialNetworkImage--social-networks{
+  width: 30px;
+}

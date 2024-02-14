@@ -1,0 +1,497 @@
+{
+  "vtex.menu@2.x:menu#Empresa": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "container"
+    },
+    "children": [
+      "menu-item#empresa-title",
+      "menu-item#quienes-somos",
+      "menu-item#nuestras-sucursales",
+      "menu-item#trabaja-con-nosotros"
+    ]
+  },
+  "menu-item#empresa-title": {
+    "props": {
+      "id": "menu-item-title",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer-title",
+      "highlight": false,
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "EMPRESAS",
+        "text": "EMPRESAS"
+      }
+    }
+  },
+  "menu-item#quienes-somos": {
+    "props": {
+      "id": "menu-item-quienes-somos",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "quienes somos",
+        "text": "Quiénes sómos?"
+      }
+    }
+  },
+  "menu-item#nuestras-sucursales": {
+    "props": {
+      "id": "menu-item-nuestras-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "sucursales",
+        "text": "Sucursales"
+      }
+    }
+  },
+  "menu-item#trabaja-con-nosotros": {
+    "props": {
+      "id": "menu-item-trabaja",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "trabaja con nosotros",
+        "text": "Trabajá con nosotros"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#Legales": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#legales-title",
+      "menu-item#terminos-condiciones",
+      "menu-item#politicas-devolucion",
+      "menu-item#politicas-privacidad",
+      "menu-item#arrepentimiento"
+    ]
+  },
+  "menu-item#legales-title": {
+    "props": {
+      "id": "menu-item-news-title",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer-title",
+      "highlight": false,
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "LEGALES",
+        "text": "LEGALES"
+      }
+    }
+  },
+  "menu-item#terminos-condiciones": {
+    "props": {
+      "id": "menu-item-terminos-condiciones",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "terminos-condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#politicas-devolucion": {
+    "props": {
+      "id": "menu-item-politicas",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "politicas",
+        "text": "Políticas de devolución"
+      }
+    }
+  },
+  "menu-item#politicas-privacidad": {
+    "props": {
+      "id": "menu-item-politicas-privacidad",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "politicas privacidad",
+        "text": "Políticas de privacidad"
+      }
+    }
+  },
+  "menu-item#arrepentimiento": {
+    "props": {
+      "id": "menu-item-arrepentimiento",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "arrepentimiento",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "boton de arrepentimiento",
+        "text": "BOTÓN DE ARREPENTIMIENTO"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#contacto": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "logo#footer",
+      "menu-item#phone",
+      "menu-item#email",
+      "menu-item#location",
+      "menu-item#contacto-redes",
+      "social-networks"
+    ]
+  },
+  "logo#footer": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/96c62035-5745-459d-88d7-747e131c763f___6b1f3a48d3a57e5696a316e1edc4fe8e.png",
+      "width": "100",
+      "blockClass": "logo-footer"
+    }
+  },
+  "menu-item#phone": {
+    "props": {
+      "id": "menu-item-phone",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": [
+        "items-footer",
+        "contacto-footer"
+      ],
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "phone",
+        "text": "2325-51-3455"
+      }
+    }
+  },
+  "menu-item#email": {
+    "props": {
+      "id": "menu-item-email",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": [
+        "items-footer",
+        "contacto-footer"
+      ],
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "email",
+        "text": "info@nuevashogar.com.ar"
+      }
+    }
+  },
+  "menu-item#location": {
+    "props": {
+      "id": "menu-item-location",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": [
+        "items-footer",
+        "contacto-footer"
+      ],
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/necessaire",
+        "noFollow": true,
+        "tagTitle": "location",
+        "text": "Carmen de Areco, Buenos Aires"
+      }
+    }
+  },
+  "menu-item#contacto-redes": {
+    "props": {
+      "id": "menu-item-contacto-redes",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": [
+        "items-footer",
+        "contacto-footer",
+        "contacto-footer-title"
+      ],
+      "highlight": false,
+      "itemProps": {
+        "noFollow": true,
+        "tagTitle": "contacto-redes",
+        "text": "Contacto"
+      }
+    }
+  },
+  "social-networks": {
+    "props": {
+      "blockClass": "social-networks",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        }
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#Servicios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#servicios-title",
+      "menu-item#como-comprar",
+      "menu-item#venta-telefonica",
+      "menu-item#envio-domicilio"
+    ]
+  },
+  "menu-item#servicios-title": {
+    "props": {
+      "id": "menu-item-news-title",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer-title",
+      "highlight": false,
+      "itemProps": {
+        "noFollow": false,
+        "tagTitle": "SERVICIOS",
+        "text": "SERVICIOS"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#clothing-mobile",
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+  "menu-item#clothing-mobile": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#clothing"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#clothing": {
+    "children": [
+      "vtex.menu@2.x:menu#clothing-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#clothing-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#venta-telefonica",
+      "menu-item#envio-domicilio",
+      "menu-item#shirts",
+      "menu-item#sweatshirt",
+      "menu-item#cropped"
+    ]
+  },
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Decoration",
+        "text": "Decoration"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#decoration"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-decoration-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#terminos-condiciones",
+      "menu-item#politicas-devolucion",
+      "menu-item#politicas-privacidad"
+    ]
+  },
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#sale"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-sale-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#terminos-condiciones",
+      "menu-item#politicas-devolucion",
+      "menu-item#politicas-privacidad"
+    ]
+  },
+  "menu-item#como-comprar": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "como comprar",
+        "text": "Cómo comprar"
+      }
+    }
+  },
+  "menu-item#venta-telefonica": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "venta telefonica",
+        "text": "Venta telefónica"
+      }
+    }
+  },
+  "menu-item#envio-domicilio": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "envio a domicilio",
+        "text": "Envío a domicilio"
+      }
+    }
+  },
+  "menu-item#shirts": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Shirts",
+        "text": "Shirts"
+      }
+    }
+  },
+  "menu-item#sweatshirt": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Sweatshirt",
+        "text": "Sweatshirt"
+      }
+    }
+  },
+  "menu-item#cropped": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "items-footer",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Cropped",
+        "text": "Cropped"
+      }
+    }
+  }
+}
