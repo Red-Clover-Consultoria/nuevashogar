@@ -75,7 +75,8 @@
   },
   "vtex.menu@2.x:menu#Legales": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "container"
     },
     "children": [
       "menu-item#legales-title",
@@ -165,7 +166,8 @@
   },
   "vtex.menu@2.x:menu#contacto": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "container"
     },
     "children": [
       "logo#footer",
@@ -277,7 +279,8 @@
   },
   "vtex.menu@2.x:menu#Servicios": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "container"
     },
     "children": [
       "menu-item#servicios-title",
@@ -302,12 +305,14 @@
   },
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "container"
     },
     "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "vtex.menu@2.x:menu#contacto",
+      "vtex.menu@2.x:menu#Empresa",
+      "vtex.menu@2.x:menu#Servicios",
+      "vtex.menu@2.x:menu#Legales"
     ]
   },
   "menu-item#clothing-mobile": {
