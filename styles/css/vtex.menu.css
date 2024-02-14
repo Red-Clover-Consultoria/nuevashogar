@@ -1,6 +1,6 @@
 .menuContainerNav {
   display: flex;
-  align-items: center;
+  align-items: start;
 }
 
 .styledLinkContent {
@@ -19,4 +19,35 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #ffffff !important;
+}
+
+.styledLinkContent--items-footer {
+  justify-content: start;
+  font-weight: 400;
+  color: black;
+}
+.styledLinkContent--contacto-footer {
+  justify-content: end !important;
+  font-weight: 400;
+  color: black;
+  font-size: 13px;
+}
+.styledLinkContent--contacto-footer-title {
+  margin-top: 10px;
+}
+
+.styledLinkContent--items-footer-title {
+  font-size: 14px ;
+  font-weight: 600 ;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.styledLinkContent--arrepentimiento {
+  background-color: #0066b2;
+  font-size: 14px ;
+  font-weight: 700 ;
+  padding: 10px 20px;
+  color: white;
+  margin-bottom: 10px;
 }

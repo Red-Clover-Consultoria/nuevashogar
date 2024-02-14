@@ -270,10 +270,20 @@
   position: absolute;
   top: 10px !important;
   right: 10px !important;
-  background: #0066B2;
+  background: #0066b2;
   color: white;
   padding: 3px 5px;
   border-radius: 5px;
   font-weight: 600;
   font-size: 0.95rem;
+}
+
+.logoLink--logo-footer {
+  text-align: end;
+}
+
+.logoImage--logo-footer {
+  background-color: #1cb7ec;
+  padding: 3px;
+  border-radius: 30px;
 }
