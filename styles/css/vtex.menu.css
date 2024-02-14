@@ -3,6 +3,14 @@
   align-items: start;
 }
 
+@media only screen and (max-width: 768px) {
+  .menuContainerNav--container {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+  }
+}
+
 .styledLinkContent {
   font-size: 14px;
   text-decoration: none;
@@ -37,16 +45,24 @@
 }
 
 .styledLinkContent--items-footer-title {
-  font-size: 14px ;
-  font-weight: 600 ;
+  font-size: 14px;
+  font-weight: 600;
   color: black;
   margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  .styledLinkContent--items-footer-title,
+  .styledLinkContent--items-footer {
+    text-align: center !important;
+    justify-content: center !important;
+  }
+}
+
 .styledLinkContent--arrepentimiento {
   background-color: #0066b2;
-  font-size: 14px ;
-  font-weight: 700 ;
+  font-size: 14px;
+  font-weight: 700;
   padding: 10px 20px;
   color: white;
   margin-bottom: 10px;

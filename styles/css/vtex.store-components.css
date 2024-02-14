@@ -282,6 +282,14 @@
   text-align: end;
 }
 
+@media only screen and (max-width: 768px) {
+  .logoLink--logo-footer {
+    text-align: center !important;
+    justify-content: center !important;
+    margin-bottom: 5px;
+  }
+}
+
 .logoImage--logo-footer {
   background-color: #1cb7ec;
   padding: 3px;
