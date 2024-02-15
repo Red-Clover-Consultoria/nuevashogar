@@ -1,0 +1,24 @@
+{
+    "store.custom#envio-a-domicilio": {
+        "blocks": [
+            "flex-layout.row#envio-a-domicilio"
+        ]
+    },
+    "flex-layout.row#envio-a-domicilio": {
+        "props": {
+            "blockClass": "institutional-wrapper",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#envio-a-domicilio-content"
+        ]
+    },
+    "rich-text#envio-a-domicilio-content": {
+        "title": "Contenido Markdown",
+        "props": {
+            "blockClass": "institutional-content",
+            "text": "# Envio a domicilio",
+            "width": "grow"
+        }
+    }
+}

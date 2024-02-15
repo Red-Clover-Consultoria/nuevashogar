@@ -1,0 +1,24 @@
+{
+    "store.custom#quienes-somos": {
+        "blocks": [
+            "flex-layout.row#quienes-somos"
+        ]
+    },
+    "flex-layout.row#quienes-somos": {
+        "props": {
+            "blockClass": "institutional-wrapper",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#quienes-somos-content"
+        ]
+    },
+    "rich-text#quienes-somos-content": {
+        "title": "Contenido Markdown",
+        "props": {
+            "blockClass": "institutional-content",
+            "text": "# ¿Quienes somos?",
+            "width": "grow"
+        }
+    }
+}

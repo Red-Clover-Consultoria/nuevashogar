@@ -21,7 +21,7 @@
     ],
     "props": {
       "blockClass": "menu-row",
-      "paddingTop": 5,
+      "paddingTop": 10,
       "paddingBottom": 5
     }
   },
