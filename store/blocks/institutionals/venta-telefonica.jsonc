@@ -1,0 +1,24 @@
+{
+    "store.custom#venta-telefonica": {
+        "blocks": [
+            "flex-layout.row#venta-telefonica"
+        ]
+    },
+    "flex-layout.row#venta-telefonica": {
+        "props": {
+            "blockClass": "institutional-wrapper",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#venta-telefonica-content"
+        ]
+    },
+    "rich-text#venta-telefonica-content": {
+        "title": "Contenido Markdown",
+        "props": {
+            "blockClass": "institutional-content",
+            "text": "# Venta telefonica",
+            "width": "grow"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "store.custom#devolucion": {
+        "blocks": [
+            "flex-layout.row#devolucion"
+        ]
+    },
+    "flex-layout.row#devolucion": {
+        "props": {
+            "blockClass": "institutional-wrapper",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#devolucion-content"
+        ]
+    },
+    "rich-text#devolucion-content": {
+        "title": "Contenido Markdown",
+        "props": {
+            "blockClass": "institutional-content",
+            "text": "# Devolucion",
+            "width": "grow"
+        }
+    }
+}

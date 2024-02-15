@@ -1,0 +1,24 @@
+{
+    "store.custom#terminos-condiciones": {
+        "blocks": [
+            "flex-layout.row#terminos-condiciones"
+        ]
+    },
+    "flex-layout.row#terminos-condiciones": {
+        "props": {
+            "blockClass": "institutional-wrapper",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#terminos-condiciones-content"
+        ]
+    },
+    "rich-text#terminos-condiciones-content": {
+        "title": "Contenido Markdown",
+        "props": {
+            "blockClass": "institutional-content",
+            "text": "# Terminso y condiciones",
+            "width": "grow"
+        }
+    }
+}

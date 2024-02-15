@@ -34,7 +34,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/quienes-somos",
         "noFollow": false,
         "tagTitle": "quienes somos",
         "text": "Quiénes sómos?"
@@ -109,7 +109,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terminos-condiciones",
         "noFollow": true,
         "tagTitle": "terminos-condiciones",
         "text": "Términos y condiciones"
@@ -125,7 +125,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/devolucion",
         "noFollow": true,
         "tagTitle": "politicas",
         "text": "Políticas de devolución"
@@ -141,7 +141,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/privacidad",
         "noFollow": true,
         "tagTitle": "politicas privacidad",
         "text": "Políticas de privacidad"
@@ -268,11 +268,15 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.facebook.com/nuevashogar?locale=es_LA"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/company/nuevas-mueblerias-avenida-s.a./?originalSubdomain=ar"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "url": "https://www.instagram.com/nuevas.hogar/"
         }
       ]
     }
@@ -428,7 +432,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/venta-telefonica",
         "noFollow": false,
         "tagTitle": "venta telefonica",
         "text": "Venta telefónica"
@@ -444,7 +448,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "/envio-a-domicilio",
         "noFollow": false,
         "tagTitle": "envio a domicilio",
         "text": "Envío a domicilio"

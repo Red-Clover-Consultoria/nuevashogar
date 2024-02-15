@@ -1,0 +1,24 @@
+{
+    "store.custom#privacidad": {
+        "blocks": [
+            "flex-layout.row#privacidad"
+        ]
+    },
+    "flex-layout.row#privacidad": {
+        "props": {
+            "blockClass": "institutional-wrapper",
+            "colSizing": "auto"
+        },
+        "children": [
+            "rich-text#privacidad-content"
+        ]
+    },
+    "rich-text#privacidad-content": {
+        "title": "Contenido Markdown",
+        "props": {
+            "blockClass": "institutional-content",
+            "text": "# privacidad",
+            "width": "grow"
+        }
+    }
+}
