@@ -1,0 +1,100 @@
+{
+    "store.custom#arrepentimiento": {
+        "blocks": [
+            "rich-text#arrepentimiento",
+            "flex-layout.row#arrepentimiento"
+        ]
+    },
+    "flex-layout.row#arrepentimiento": {
+        "props": {
+            "blockClass": "institutional-wrapper",
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "marginTop": 5
+        },
+        "children": [
+            "flex-layout.col#form-arrepentimiento"
+        ]
+    },
+    "flex-layout.col#form-arrepentimiento": {
+        "props": {
+            "width": "30%   "
+        },
+        "children": [
+            "form#arrepentimiento"
+        ]
+    },
+    "rich-text#arrepentimiento": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "# Cancela tu pedido",
+            "font": "t-heading-1"
+        }
+    },
+    "form#arrepentimiento": {
+        "props": {
+            "entity": "BA",
+            "schema": "arrepentimiento",
+            "blockClass": "form-tn"
+        },
+        "children": [
+            "form-input.text#email-arrepentimiento",
+            "form-input.text#fullname-arrepentimiento",
+            "form-input.text#orderNumber-arrepentimiento",
+            // "form-input.text#phone-arrepentimiento",
+            "form-input.textarea#reason-arrepentimiento",
+            "form-submit#arrepentimiento"
+        ],
+        "blocks": [
+            "form-success#arrepentimiento"
+        ]
+    },
+    "form-success#arrepentimiento": {
+        "children": [
+            "rich-text#message-arrepentimiento"
+        ]
+    },
+    "rich-text#message-arrepentimiento": {
+        "props": {
+            "text": "##### **¡Pedido cancelado exitosamente!**\nSentimos que hayas tenido que hacerlo. Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos. ¡Gracias!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "form-input.text#fullname-arrepentimiento": {
+        "props": {
+            "pointer": "#/properties/fullname",
+            "label": "Nombre y Apellido"
+        }
+    },
+    "form-input.text#email-arrepentimiento": {
+        "props": {
+            "pointer": "#/properties/email",
+            "label": "Email"
+        }
+    },
+    "form-input.text#orderNumber-arrepentimiento": {
+        "props": {
+            "pointer": "#/properties/orderNumber",
+            "label": "Número de pedido"
+        }
+    },
+    "form-input.text#phone-arrepentimiento": {
+        "props": {
+            "pointer": "#/properties/phone",
+            "label": "Teléfono"
+        }
+    },
+    "form-input.textarea#reason-arrepentimiento": {
+        "props": {
+            "pointer": "#/properties/reason",
+            "label": "Motivo de cancelación"
+        }
+    },
+    "form-submit#arrepentimiento": {
+        "props": {
+            "label": "Cancelar pedido"
+        }
+    }
+}
