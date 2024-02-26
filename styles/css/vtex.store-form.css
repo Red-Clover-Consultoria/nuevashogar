@@ -1,0 +1,4 @@
+.formSubmitButton :global(.vtex-button){
+    width: 100%;
+}
+
