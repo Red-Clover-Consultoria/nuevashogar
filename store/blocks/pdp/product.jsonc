@@ -234,7 +234,7 @@
   },
   "vtex.store-components:product-brand#pdp": {
     "props": {
-      "blockClass": "marca-product",
+      "blockClass": "marca-product-pdp",
       "displayMode": "logo",
       "fallbackToText": true,
       "withLink": "logoAndText"

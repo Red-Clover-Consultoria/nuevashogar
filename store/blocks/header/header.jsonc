@@ -42,6 +42,11 @@
       "minicart.v2"
     ]
   },
+  "search-bar":{
+    "props": {
+      "blockClass": "navbar"
+    }
+  },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
