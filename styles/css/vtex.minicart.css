@@ -1,5 +1,7 @@
-.cartIcon {
+.cartIcon--minicart {
   color: #ffffff;
+  width: 22px !important;
+  height: 22px !important;
 }
 
 .minicartCheckoutButton :global(.vtex-button__label) {

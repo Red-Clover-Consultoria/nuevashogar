@@ -1,3 +1,7 @@
+.searchBarContainer{
+  width: 500px;
+}
+
 .imageElement--ofertas {
   width: 100%;
 }
@@ -266,16 +270,30 @@
   margin: 0 14px;
 }
 
+.productBrandContainer--marca-product {
+  display: flex;
+  justify-content: center;
+}
+
 .productBrandName--marca-product {
-  position: absolute;
-  top: 10px !important;
-  right: 10px !important;
-  background: #0066b2;
-  color: white;
+  font-family: "Montserrat",sans-serif;
+  color: #9d9d9c;
+  font-weight: 800;
   padding: 3px 5px;
-  border-radius: 5px;
-  font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
+}
+
+.productBrandContainer--marca-product-pdp {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+
+.productBrandName--marca-product-pdp {
+  font-family: "Montserrat",sans-serif;
+  color: #9d9d9c;
+  font-weight: 800;
+  font-size: 1.8rem;
 }
 
 .logoLink--logo-footer {
