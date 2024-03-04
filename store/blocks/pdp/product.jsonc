@@ -5,8 +5,10 @@
       "condition-layout.product#availability",
       "tab-layout#description-specification",
       "product-specification-group#table",
-      "rich-text#cross",
-      "flex-layout.row#cross"
+      "rich-text#sugeridos",
+      "flex-layout.row#sugeridos",
+      "rich-text#accesorios",
+      "flex-layout.row#accesorios-nh"
     ]
   },
   ////////// inicio de tab
@@ -74,26 +76,45 @@
     }
   },
   ////////// fin de tab
-  "flex-layout.row#cross": {
+  "flex-layout.row#sugeridos": {
     "children": [
-      "list-context.product-list#cross"
+      "list-context.product-list#sugeridos"
     ],
     "props": {
       "blockClass": "cross"
     }
   },
-  "list-context.product-list#cross": {
+  "flex-layout.row#accesorios-nh": {
+    "children": [
+      "list-context.product-list#accesorios-nh"
+    ],
+    "props": {
+      "blockClass": "cross"
+    }
+  },
+  "list-context.product-list#sugeridos": {
     "blocks": [
       "product-summary.shelf"
     ],
     "children": [
-      "slider-layout#cross-products"
+      "slider-layout#sugeridos"
     ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#cross-products": {
+  "list-context.product-list#accesorios-nh": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#accesorios-nh"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC"
+    }
+  },
+  "slider-layout#sugeridos": {
     "props": {
       "itemsPerPage": {
         "desktop": 3,
@@ -106,11 +127,31 @@
       "blockClass": "shelf"
     }
   },
-  "rich-text#cross": {
+  "slider-layout#accesorios-nh": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showPaginationDots": "never",
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+  "rich-text#sugeridos": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "## También te puede interesar"
+    }
+  },
+  "rich-text#accesorios": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## Te recomendamos"
     }
   },
   "flex-layout.row#specifications-title": {
