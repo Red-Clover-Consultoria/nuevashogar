@@ -270,6 +270,11 @@
   margin: 0 14px;
 }
 
+.productBrandNameLink--marca-product-pdp{
+  text-decoration: none !important;
+
+}
+
 .productBrandContainer--marca-product {
   display: flex;
   justify-content: center;
@@ -293,11 +298,15 @@
   font-family: "Montserrat",sans-serif;
   color: #9d9d9c;
   font-weight: 800;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 .logoLink--logo-footer {
   text-align: end;
+}
+
+.caretIcon--pdp{
+  width: 14px;
 }
 
 @media only screen and (max-width: 768px) {

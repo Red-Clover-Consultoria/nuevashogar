@@ -5,6 +5,7 @@
       "condition-layout.product#availability",
       "tab-layout#description-specification",
       "product-specification-group#table",
+      "rich-text#cross",
       "flex-layout.row#cross"
     ]
   },
@@ -103,6 +104,13 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
+    }
+  },
+  "rich-text#cross": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "## También te puede interesar"
     }
   },
   "flex-layout.row#specifications-title": {
@@ -257,11 +265,19 @@
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
-      "marginBottom": 7
+      "marginBottom": 7,
+      "blockClass": "add-to-cart-row"
     },
     "children": [
       "add-to-cart-button"
     ]
+  },
+  "image#logo-button-pdp": {
+    "props": {
+      "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/7fc31083-e10a-4bcf-9107-2ae6cff9fc21___09376a6f5fcc439670b96c6b39f8af7a.png",
+      "maxHeight": 24,
+      "blockClass": "logo-button-pdp"
+    }
   },
   "flex-layout.row#product-availability": {
     "props": {

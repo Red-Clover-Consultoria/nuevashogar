@@ -1,3 +1,9 @@
+.containerNormal {
+  min-width: 250px;
+  width: min(100%, 300px);
+}
+
+
 .element {
   aspect-ratio: 1/1;
   transform: scale(0.8);
