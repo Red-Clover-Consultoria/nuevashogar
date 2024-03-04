@@ -4,7 +4,6 @@
       "list-context.image-list#demo",
       "flex-layout.row#deals",
       "flex-layout.row#categories",
-      "__fold__",
       "flex-layout.row#ofertas-destacadas",
       "flex-layout.row#shelf",
       "flex-layout.row#baners",
