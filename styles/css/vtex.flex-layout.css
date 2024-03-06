@@ -170,6 +170,18 @@
 
 .flexRowContent--footer-development {
   align-items: center;
+  padding: 0 !important;
+}
+.flexCol--tarjeta{
+  width: fit-content;
+}
+.flexColChild--tarjeta :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
 }
 /* 
 @media only screen and (max-width: 1025px) {

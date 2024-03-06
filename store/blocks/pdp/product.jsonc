@@ -275,6 +275,7 @@
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
+      "image#tarjetas",
       "availability-subscriber",
       "rich-text#shipping",
       "shipping-simulator",
@@ -303,6 +304,44 @@
       "showValueNameForImageVariation": true
     }
   },
+  "flex-layout.row#installments": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "row-installments"
+    },
+    "children": [
+      "image#tarjeta",
+      "flex-layout.col#installments"
+    ]
+  },
+  "flex-layout.col#tarjeta": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "tarjeta",
+      "verticalAlign": "middle",
+      "width": "15%",
+      "marginLeft": 0,
+      "marginRight": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    "children": [
+      "image#tarjeta"
+    ]
+  },
+  "flex-layout.col#installments": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "installments",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "product-installments"
+    ]
+  },
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
@@ -312,6 +351,19 @@
     "children": [
       "add-to-cart-button"
     ]
+  },
+  "image#tarjeta": {
+    "props": {
+      "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/dc3a302a-36b3-4c92-bdb8-95338d417fc9___58c64d08b48869e33a5f290e4a64aed8.png",
+      "maxHeight": 24,
+      "blockClass": "logo-tarjeta"
+    }
+  },
+  "image#tarjetas": {
+    "props": {
+      "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/23ce9e63-b12d-49a6-9a78-66b6061ec0fa___22b183ad51739feef6b9104b1b632275.png",
+      "blockClass": "tarjetas"
+    }
   },
   "image#logo-button-pdp": {
     "props": {
