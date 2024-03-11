@@ -141,6 +141,7 @@
     }
   },
   "rich-text#sugeridos": {
+    "title": "Carrousel sugeridos",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -148,6 +149,7 @@
     }
   },
   "rich-text#accesorios": {
+    "title": "Carrousel accesorios",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
