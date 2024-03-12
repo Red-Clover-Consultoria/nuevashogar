@@ -4,6 +4,10 @@
   height: 22px !important;
 }
 
+.openIconContainer--minicart :global(.vtex-button){
+  background: none;
+}
+
 .minicartCheckoutButton :global(.vtex-button__label) {
   font-size: 0;
 }
