@@ -9,10 +9,14 @@
     },
     "children": [
       "product-selling-price",
-      "product-price-savings"
+      "product-price-savings#pdp"
     ]
   },
-
+  "product-price-savings#pdp": {
+    "props": {
+      "message": "{savingsPercentage} OFF"
+    }
+  },
   "flex-layout.row#list-price-savings": {
     "props": {
       "colGap": 2,
@@ -23,7 +27,12 @@
     },
     "children": [
       "product-list-price"
-      
     ]
+  },
+  "product-installments#pdp": {
+    "props": {
+      "blockClass": "pdp",
+      "message": "Hasta {installmentsNumber} cuotas de {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { sin interés}}"
+    }
   }
 }

@@ -16,10 +16,26 @@
   font-weight: 700;
 }
 
+.installments--pdp {
+  color: #727273;
+  padding: 10px 0px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-image: url('https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/dc3a302a-36b3-4c92-bdb8-95338d417fc9___58c64d08b48869e33a5f290e4a64aed8.png');
+  background-size: auto 24px;
+  background-repeat: no-repeat;
+  background-position: center left; 
+  padding-left: 30px;
+}
 .installments {
   color: #727273;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
+
+.installmentsNumber{
+  font-weight: bold;
+}
+
 
 .savings {
   font-weight: bold;
