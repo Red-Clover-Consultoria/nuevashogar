@@ -32,7 +32,7 @@
   "product-installments#pdp": {
     "props": {
       "blockClass": "pdp",
-      "message": "Hasta {installmentsNumber} cuotas de {installmentValue}{hasInterest, select, true {, {interestRate} de interés} false { sin interés}}"
+      "message": "Hasta {installmentsNumber} cuotas de {installmentValue}{hasInterest, select, false {, {interestRate}% de interés} true { sin interés}}"
     }
   }
 }
