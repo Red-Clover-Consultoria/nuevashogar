@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/* contenedor general */
+.paymentContainer{
+  position: relative;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  font-family: 'Montserrat';
+  /* padding: 1rem 0; //extra */
+  overflow: auto;
+  border-radius: 24px 0px 24px 24px;
+  /* max-width: 100%; //extra */
+}/* fin contenedor general */
+
+/* scroll vertical */
+.paymentContainer::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+.paymentContainer::-webkit-scrollbar:vertical {
+  width:10px;
+}
+.paymentContainer::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+  display: none;
+}
+.paymentContainer::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.paymentContainer::-webkit-scrollbar-thumb {
+  background-color: #e2e2e2;
+  border-radius: 20px;
+}
+.paymentContainer::-webkit-scrollbar-track {
+  border-radius: 10px;
+}/* fin scroll vertical */
+
+/* contenedor */
+.container{
+  display: flex;
+  flex-direction: column !important;
+  /* border: double 1.8px transparent; */ 
+  /* border-radius: 24px 24px 24px 24px; */ 
+  background-image: linear-gradient(white, white), 
+                    linear-gradient(to bottom, rgba(198, 207, 216, 1), rgba(198, 207, 216, 0));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  /* padding: 1rem; //extra */
+}
+
+/*fin contenedor */
+
+
+/* metodo de pago activo o no */
+.metodoPago:hover{
+  cursor: pointer;
+}
+.paymentMethodActive, .paymentMethodInactive{
+  display: flex;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+
+.paymentMethodInactive{
+  border-bottom: 1.5px solid #C6CFD8;
+  color: #0F283E;
+  font-weight: 400;
+}
+
+
+.paymentMethodActive{
+  /* border-bottom: 3px solid;
+  border-image: linear-gradient(to right, #6F0984, #FA0388); */
+  border-image-slice: 1;
+  border-style: solid;
+  border-width: 3px;
+  border-image: linear-gradient(270deg, #0070EF 0.84%, #71C8F2 58.68%) 0 0 100% 0/0 0 3px 0 stretch;
+  color: #0F283E;
+}
+
+/* tarjeta activa o no */
+.opcionTarjeta{
+  display: flex;
+  align-items: center;
+}
+
+.opcionTarjeta:hover{
+  cursor: pointer;
+}
+
+:global(.sinCuotas) {
+  text-align: center;
+    font-size: 1.2em;
+    padding: 10px 0;
+    margin-bottom: 1px;
+    display: block;
+    background-color: #d9ead975;
+    color: green;
+}
+
+:global(.sinCuotasInfo) {
+  text-align: center;
+  padding: 15px 25px;
+  background-color: #d9ead975;
+  color: green;
+  line-height: 1.4;
+}
+
+
+@media (min-width:800px){
+  .paymentMethodActive, .paymentMethodInactive{
+    width: 250px;
+  }
+}
+
+.paymentOptionInactive, .paymentOptionActive{
+  padding: 0.2rem;
+  padding-right: .5rem;
+  margin: 0 0.3rem;
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+/* si esta activo o no el metodo */
+
+/* tarjeta activa */
+.paymentOptionActive{
+  border: 1.5px solid #0070EF;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.cardIcon{
+  width: 30px;
+  margin-left: 0.2rem;
+}
+
+/* sin interes */
+.interestZero{
+  color: #3993DD;
+}
+.interest{
+  color: #111;
+}
+.paymentContainer td{
+  /* text-align: center; */
+  /* padding: 0.5rem; */
+  padding: 0.3rem;
+}
+.tableHeaders{
+  font-weight: 600;
+}
+
+.tablaDiv{
+  margin-left: 1rem;
+}
+
+/* .tablaDiv{
+  display: flex;
+  justify-content: center;
+} */
+
+.tablaCuotas{  
+  border-collapse: collapse;
+  /* max-width: 100%; //extra */
+  /* width: 100%; //extra */
+}
+.tablaHead tr{
+  border-bottom: 2px solid #E3E4E9;
+}
+
+.tablaBody tr{
+  border-bottom: .5px solid #E3E4E9;
+}
+
+.metodoPago img {
+  width: 20px;
+  margin-top: 3px;
+}
+
+.metodoPago  {
+  font-size: 14px;
+}
+
+/* Medias querys */
+@media (max-width:800px) and (min-width:540px){
+  .paymentContainer{
+    display: flex;
+    align-items: center;
+  }
+
+  .petenattiar-petenattiar-1-x-tablaBody {
+    font-size: 0.6em;
+}
+}
+@media (min-width: 800px){
+  
+  .spinner {
+    margin-top: 2rem !important;
+  }
+ 
+  .container{
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1003px){
+  .metodoPago{
+    margin-right: 2rem;
+  }
+}
+
+/* spinner de carga */
+.spinner {
+  margin-left: 45%;
+  margin-top: 45%;
+
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #0070EF;
+
+  animation: spin 1s ease infinite;
+
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+p.pago {
+  padding-left: 20px !important;
+  line-height: 1.5 !important;
+}
+
+@media (max-width: 768px){
+  .tablaCuotas{  
+    font-size: 11px;
+  }
+}
