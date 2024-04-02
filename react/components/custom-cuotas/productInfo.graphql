@@ -1,0 +1,26 @@
+query productInfo($slug: String) {
+  product(slug: $slug) {
+    productName
+    items(filter: ALL) {
+      name
+      itemId
+      referenceId {
+  		  Key
+  		  Value
+  		}
+      sellers {
+        commertialOffer {
+          Installments(criteria: ALL) {
+            Name
+            Value
+            InterestRate
+            TotalValuePlusInterestRate
+            NumberOfInstallments
+            PaymentSystemName
+            PaymentSystemGroupName
+          }
+        }
+      }
+    }
+  }
+}
