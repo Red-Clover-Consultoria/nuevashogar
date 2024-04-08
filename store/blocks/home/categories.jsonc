@@ -105,49 +105,49 @@
     "image#smart-tv": {
         "props": {
             "blockClass": "categories",
-            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/b4af3ac4-f025-4859-ad02-798d1115972c___ca4f4c7307948901353555aedd63e4d2.webp",
+            "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/6bc2abda-fe34-47f1-8f16-47b3f8ffe6fd___decfbda812e2cb1c7c3b437db0fc7823.png",
             "maxHeight": 150
         }
     },
     "image#celulares": {
         "props": {
             "blockClass": "categories",
-            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/4c84c8fc-368d-474d-8430-7f9323ffc929___33460954014ed93299db99d0beb6272e.png",
+            "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/6c3344dc-4e1d-448e-b994-ed84cef2828c___64daf62a997d1aee428232c3136987a2.png",
             "maxHeight": 150
         }
     },
     "image#climatizacion": {
         "props": {
             "blockClass": "categories",
-            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/cbb541af-4895-45d1-b34c-4c956739aa14___63e4d88a5a7a2b08257f28a8e86a81e1.png",
+            "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/dc81b66a-946a-4935-8966-957da9ef39d3___a8f8e99d633e42162d723c63230e4e1c.png",
             "maxHeight": 150
         }
     },
     "image#lavarropas": {
         "props": {
             "blockClass": "categories",
-            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/ca31285f-8f13-4fb0-9fce-5a97385eb10c___6947e12f45ef83db56afe7a9886f121c.avif",
+            "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/e33810e1-758d-41e4-8ee4-9a93bf55a1d9___582b2108e25670534c52c3925097a9ef.png",
             "maxHeight": 150
         }
     },
     "image#heladeras": {
         "props": {
             "blockClass": "categories",
-            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/46a9d0b4-58e1-49da-90fc-619f72c63062___b29f9d69e8462abc94e85521b40bdd88.webp",
+            "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/6bd9f7f9-9960-40fc-8edf-aa2b9112c464___a8c4b8c91b2b4ae991b9a4be15139f0b.png",
             "maxHeight": 150
         }
     },
     "image#cocinas": {
         "props": {
             "blockClass": "categories",
-            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/5e7500b5-7abf-4705-932f-df3b92455ca0___5a0b4cd4c34633db21dee6a2e2a45979.png",
+            "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/376ac307-47f2-4a7f-ac93-07cdecb984be___524ce0a799ee3c5a30042af57697df92.png",
             "maxHeight": 150
         }
     },
     "image#termotanques": {
         "props": {
             "blockClass": "categories",
-            "src": "https://redclover.vtexassets.com/assets/vtex.file-manager-graphql/images/a08b3922-777b-4ee6-807c-a94ca6466314___4a70cabd556bd07ace8f6ee5f5be04fe.png",
+            "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/766ac20a-4441-4ca4-8d6a-ffb09548b090___9de5c1645bdbeeef4f04e40348f6232e.png",
             "maxHeight": 150
         }
     },

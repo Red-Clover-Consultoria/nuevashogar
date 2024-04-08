@@ -100,8 +100,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/33236454-4153-485d-92ff-cfa833c30a65___0487cd8cfb86b97e62e2eda773cbf3c7.png",
-      "width": "180"
+      "url": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/3b0e7340-e70e-46d3-8135-5a4923bfc6a7___c95305f9a6e191f3e4eaf0d96af1fa2d.png",
+      "width": "250"
     }
   },
   "header-layout.mobile": {
@@ -155,7 +155,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/33236454-4153-485d-92ff-cfa833c30a65___0487cd8cfb86b97e62e2eda773cbf3c7.png",
+      "url": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/3b0e7340-e70e-46d3-8135-5a4923bfc6a7___c95305f9a6e191f3e4eaf0d96af1fa2d.png",
       "width": "150"
       // "height": "27.5"
     }

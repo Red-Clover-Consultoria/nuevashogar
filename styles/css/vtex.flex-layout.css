@@ -54,6 +54,8 @@
 }
 
 .flexRowContent--menu-link {
+  padding: 10px 0px;
+  display: flex;
   align-items: center;
   background-color: #1db9ef;
   color: #fff;
