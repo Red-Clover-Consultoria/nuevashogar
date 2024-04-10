@@ -50,8 +50,8 @@ const CalculadorCuotas = () => {
       const reference = document.querySelector(".vtex-product-identifier-0-x-product-identifier__value").innerHTML;
 
       datos.forEach(dato => {
-
-        if (reference === dato.referenceId[0].Value && dato.sellers[0].commertialOffer.Installments.length !== 0) {
+        // SE BUSCA POR ID DE PRODUCTO
+        if (reference === dato.itemId[product.productId] && dato.sellers[0].commertialOffer.Installments.length !== 0) {
           info = dato.sellers[0].commertialOffer.Installments;
 
         } else {
@@ -69,7 +69,6 @@ const CalculadorCuotas = () => {
 
 
         if (sku === dato.itemId && dato.sellers[0].commertialOffer.Installments.length !== 0) {
-          console.log(dato)
           info = dato.sellers[0].commertialOffer.Installments;
           // info = data.product.items[0].sellers[0].commertialOffer.Installments;
         }
@@ -202,7 +201,6 @@ const CantidadC = ({ checkedOption, info }) => {
 }
 
 const Installments = ({ checkedOption, info }) => {
-  console.log(info)
   return (
     <div className={styles.tablaDiv}>
       <table className={styles.tablaCuotas} >
