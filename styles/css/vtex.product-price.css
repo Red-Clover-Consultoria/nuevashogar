@@ -107,7 +107,8 @@
 }
 
 .savingsPercentage--summaryPercentage {
-  font-size: 0.875rem;
+  text-align: center;
+  font-size: 0.9rem;
   font-weight: 600;
   vertical-align: baseline;
   color: #ffffff;

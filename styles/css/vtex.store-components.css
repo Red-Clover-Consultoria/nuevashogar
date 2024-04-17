@@ -287,7 +287,7 @@
 .productBrandName--marca-product {
   font-family: "Montserrat",sans-serif;
   color: #9d9d9c;
-  font-weight: 800;
+  font-weight: regular;
   padding: 3px 5px;
   font-size: 1.2rem;
 }
@@ -301,7 +301,7 @@
 .productBrandName--marca-product-pdp {
   font-family: "Montserrat",sans-serif;
   color: #9d9d9c;
-  font-weight: 800;
+  font-weight: regular;
   font-size: 1.4rem;
 }
 
