@@ -10,16 +10,6 @@
             "colGap": 5
         }
     },
-    "image#section3-img1": {
-        "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
-        }
-    },
-    "image#section3-img2": {
-        "props": {
-            "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
-        }
-    },
     "image#section3-img3": {
         "props": {
             "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png"
