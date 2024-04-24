@@ -1,7 +1,11 @@
 .groupName {
   font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
 }
 
-.specificationName {
-  font-weight: bold;
+.specificationName,
+.specificationValue {
+  font-family: "Montserrat", sans-serif;
+  color: #9d9d9c;
 }

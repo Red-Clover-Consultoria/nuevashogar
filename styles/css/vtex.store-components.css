@@ -326,3 +326,23 @@
   padding: 3px;
   border-radius: 30px;
 }
+
+/* LOGO DE MARCA */
+
+:global(.vtex-store-components-3-x-productBrandLogoWrapper--marca-product),
+:global(.vtex-store-components-3-x-productBrandLogoWrapper--marca-product-pdp){
+  height: 32px !important;
+}
+
+:global(.vtex-store-components-3-x-productBrandContainer--marca-product){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+}
+
+:global(.vtex-store-components-3-x-productBrandLogo--marca-product),
+:global(.vtex-store-components-3-x-productBrandLogo--marca-product-pdp){
+  width: 80px;
+  height: 32px !important;
+}
