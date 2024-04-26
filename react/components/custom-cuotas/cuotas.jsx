@@ -141,7 +141,7 @@ const CalculadorCuotas = () => {
   }
 
   if (error) {
-    return (<p>Información no disponible</p>)
+    return null;
   }
 }
 
