@@ -65,7 +65,8 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
     "vtex.search-graphql": "0.x",
-    "vtex.product-context": "0.x"
+    "vtex.product-context": "0.x",
+    "tobs.whatsapp-bubble": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",

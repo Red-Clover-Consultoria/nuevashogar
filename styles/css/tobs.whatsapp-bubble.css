@@ -1,0 +1,12 @@
+.whatsappBubble {
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+}
+
+@media (max-width: 768px) {
+    .whatsappBubble {
+        bottom: 20px;
+        right: 20px;
+    }
+}

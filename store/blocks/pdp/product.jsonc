@@ -279,7 +279,8 @@
       "availability-subscriber",
       "rich-text#shipping",
       "shipping-simulator",
-      "share#default"
+      "share#default",
+      "tobs-whatsapp-bubble"
     ]
   },
   "vtex.store-components:product-brand#pdp": {

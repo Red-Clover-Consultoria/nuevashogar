@@ -16,9 +16,17 @@
       "flex-layout.row#shelf6",
       "flex-layout.row#shelf7",
       "flex-layout.row#ofertas-destacadas2",
-      "flex-layout.row#shelf8"
+      "flex-layout.row#shelf8",
+      "tobs-whatsapp-bubble"
     ]
   },
+  "tobs-whatsapp-bubble": {
+    "props": {
+    "phone": "123456",
+    "message": "Texto implementado desde el código.",
+    "isActive": true
+    }
+},
   "list-context.image-list#demo": {
     "title": "Banner principal",
     "children": [
