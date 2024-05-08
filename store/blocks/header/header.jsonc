@@ -42,7 +42,7 @@
       "minicart.v2"
     ]
   },
-  "search-bar":{
+  "search-bar": {
     "props": {
       "blockClass": "navbar"
     }
@@ -111,7 +111,8 @@
   },
   "sticky-layout#1-mobile": {
     "children": [
-      "flex-layout.row#1-mobile"
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
     ]
   },
   "flex-layout.row#1-mobile": {
@@ -130,6 +131,19 @@
       "fullWidth": true
     }
   },
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.col#spacer"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
   "drawer": {
     "children": [
       "menu#drawer"
@@ -137,15 +151,15 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#smart-tvs",
-      "menu-item#celulares",
-      "menu-item#climatizacion",
-      "menu-item#electrodomesticos",
-      "menu-item#tecnologia",
-      "menu-item#muebles",
-      "menu-item#cuidado-salud",
-      "menu-item#jardin",
-      "menu-item#rodados"
+      "menu-item#smart-tvs-mobiles",
+      "menu-item#celulares-mobile",
+      "menu-item#climatizacion-mobile",
+      "menu-item#electrodomesticos-mobile",
+      "menu-item#tecnologia-mobile",
+      "menu-item#muebles-mobile",
+      "menu-item#cuidado-salud-mobile",
+      "menu-item#jardin-mobile",
+      "menu-item#rodados-mobile"
     ],
     "props": {
       "orientation": "vertical"
@@ -159,5 +173,797 @@
       "width": "150"
       // "height": "27.5"
     }
+  },
+  "menu-item#smart-tvs-mobiles": {
+    "props": {
+      "blockClass": [
+        "primario",
+        "noaccordion"
+      ],
+      "id": "smart-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Smart Tvs",
+        "text": "Smart Tvs"
+      },
+      "blocks": [
+        // "vtex.menu@2.x:submenu#category-apparel"
+      ]
+    }
+  },
+  "menu-item#celulares-mobile": {
+    "props": {
+      "blockClass": [
+        "primario",
+        "noaccordion"
+      ],
+      "id": "menu-item-celulares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+      },
+      "blocks": [
+        // "vtex.menu@2.x:submenu#category-apparel"
+      ]
+    }
+  },
+  // CLIMATIZACION MOBILE
+  "menu-item#climatizacion-mobile": {
+    "props": {
+      "blockClass": "primario",
+      "id": "climatizacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Climatizacion",
+        "text": "Climatizacion"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#climatizacion-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#climatizacion-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#climatizacion-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#climatizacion-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal"
+    },
+    "children": [
+      "menu-item#aire-acondicionado-mobile",
+      "menu-item#ventiladores-mobile",
+      "menu-item#calefactores-mobile",
+      "menu-item#estufas-a-gas-mobile",
+      "menu-item#caloventores-mobile",
+      "menu-item#vitroconvectores-mobile"
+    ]
+  },
+  "menu-item#aire-acondicionado-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "aire-acondicionado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Climatizacion/Aire-Acondicionado",
+        "noFollow": true,
+        "tagTitle": "Aire Acondicionado",
+        "text": "Aire Acondicionado"
+      }
+    }
+  },
+  "menu-item#ventiladores-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "ventiladores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Climatizacion/Ventiladores",
+        "noFollow": true,
+        "tagTitle": "Ventiladores",
+        "text": "Ventiladores"
+      }
+    }
+  },
+  "menu-item#calefactores-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "calefactores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Climatizacion/Calefactores",
+        "noFollow": true,
+        "tagTitle": "Calefactores",
+        "text": "Calefactores"
+      }
+    }
+  },
+  "menu-item#estufas-a-gas-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "estufas-a-gas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Climatizacion/Estufas-a-gas",
+        "noFollow": true,
+        "tagTitle": "Estufas a Gas",
+        "text": "Estufas a Gas"
+      }
+    }
+  },
+  "menu-item#caloventores-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "caloventores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Climatizacion/Caloventores",
+        "noFollow": true,
+        "tagTitle": "Caloventores",
+        "text": "Caloventores"
+      }
+    }
+  },
+  "menu-item#vitroconvectores-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "vitroconvectores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Climatizacion/Vitroconvectores",
+        "noFollow": true,
+        "tagTitle": "Vitroconvectores",
+        "text": "Vitroconvectores"
+      }
+    }
+  },
+  // FIN CLIMATIZACION MOBILE 
+  // ELECTRODOMESTICOS 
+  "menu-item#electrodomesticos-mobile": {
+    "props": {
+      "blockClass": "primario",
+      "id": "electrodomesticos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Electrodomesticos",
+        "text": "Electrodomesticos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#electrodomesticos-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#electrodomesticos-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#electrodomesticos-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#electrodomesticos-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal"
+    },
+    "children": [
+      "menu-item#eletro-climatizacion-mobile",
+      "menu-item#lavado-mobile",
+      "menu-item#cocina-mobile",
+      "menu-item#termotanques-y-calefones-mobile",
+      "menu-item#mini-domesticos-cocina-mobile",
+      "menu-item#mini-domesticos-hogar-mobile"
+    ]
+  },
+  "menu-item#eletro-climatizacion-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "eletro-climatizacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Climatizacion",
+        "noFollow": true,
+        "tagTitle": "Climatización",
+        "text": "Climatización"
+      }
+    }
+  },
+  "menu-item#lavado-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "lavado",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Lavado",
+        "noFollow": true,
+        "tagTitle": "Lavado",
+        "text": "Lavado"
+      }
+    }
+  },
+  "menu-item#cocina-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "cocina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Cocina",
+        "noFollow": true,
+        "tagTitle": "Cocina",
+        "text": "Cocina"
+      }
+    }
+  },
+  "menu-item#termotanques-y-calefones-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "termotanques-y-calefones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Termotanques---Calefones",
+        "noFollow": true,
+        "tagTitle": "Termotanques y Calefones",
+        "text": "Termotanques y Calefones"
+      }
+    }
+  },
+  "menu-item#mini-domesticos-cocina-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "mini-domesticos-cocina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Mini-domesticos-cocina",
+        "noFollow": true,
+        "tagTitle": "Mini Domésticos Cocina",
+        "text": "Mini Domésticos Cocina"
+      }
+    }
+  },
+  "menu-item#mini-domesticos-hogar-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "mini-domesticos-hogar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ELECTRODOMeSTICOS/Mini-domesticos-hogar",
+        "noFollow": true,
+        "tagTitle": "Mini Domésticos Hogar",
+        "text": "Mini Domésticos Hogar"
+      }
+    }
+  },
+  // FIN ELECTRODOMESTICOS 
+  // TECNOLOGIA 
+  "menu-item#tecnologia-mobile": {
+    "props": {
+      "blockClass": "primario",
+      "id": "tecnologia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Tecnologia",
+        "text": "Tecnologia"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#tecnologia-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#tecnologia-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#tecnologia-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#tecnologia-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal"
+    },
+    "children": [
+      "menu-item#informatica-mobile",
+      "menu-item#smarttvs-mobile",
+      "menu-item#tecno-celulares-mobile",
+      "menu-item#accesorios-mobile",
+      "menu-item#audio-mobile"
+    ]
+  },
+  "menu-item#informatica-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "informatica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/TECNOLOGiA/Informatica",
+        "noFollow": true,
+        "tagTitle": "Informática",
+        "text": "Informática"
+      }
+    }
+  },
+  "menu-item#smarttvs-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "smarttvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/TECNOLOGiA/Smart-Tvs",
+        "noFollow": true,
+        "tagTitle": "Smart TVs",
+        "text": "Smart TVs"
+      }
+    }
+  },
+  "menu-item#tecno-celulares-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "celulares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/TECNOLOGiA/Celulares",
+        "noFollow": true,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+      }
+    }
+  },
+  "menu-item#accesorios-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/TECNOLOGiA/Accesorios",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#audio-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "audio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/TECNOLOGiA/Audio",
+        "noFollow": true,
+        "tagTitle": "Audio",
+        "text": "Audio"
+      }
+    }
+  },
+  // FIN TECNOLOGIA 
+  // MUEBLES 
+  "menu-item#muebles-mobile": {
+    "props": {
+      "blockClass": "primario",
+      "id": "muebles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Muebles",
+        "text": "Muebles"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#muebles-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#muebles-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#muebles-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#muebles-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal"
+    },
+    "children": [
+      "menu-item#muebles-de-cocina-mobile",
+      "menu-item#muebles-de-dormitorio-mobile",
+      "menu-item#muebles-de-living-comedor-mobile",
+      "menu-item#muebles-de-oficina-mobile"
+    ]
+  },
+  "menu-item#muebles-de-cocina-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "muebles-de-cocina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-cocina",
+        "noFollow": true,
+        "tagTitle": "Muebles de Cocina",
+        "text": "Muebles de Cocina"
+      }
+    }
+  },
+  "menu-item#muebles-de-dormitorio-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "muebles-de-dormitorio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-dormitorio",
+        "noFollow": true,
+        "tagTitle": "Muebles de Dormitorio",
+        "text": "Muebles de Dormitorio"
+      }
+    }
+  },
+  "menu-item#muebles-de-living-comedor-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "muebles-de-living-comedor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-living-comedor",
+        "noFollow": true,
+        "tagTitle": "Muebles de Living-Comedor",
+        "text": "Muebles de Living-Comedor"
+      }
+    }
+  },
+  "menu-item#muebles-de-oficina-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "muebles-de-oficina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-oficina",
+        "noFollow": true,
+        "tagTitle": "Muebles de Oficina",
+        "text": "Muebles de Oficina"
+      }
+    }
+  },
+  // FIN MUEBLES 
+  // CUIDADO PERSONA Y SALUD 
+  "menu-item#cuidado-salud-mobile": {
+    "props": {
+      "blockClass": "primario",
+      "id": "cuidado-salud",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Cuidado Personal & Salud",
+        "text": "Cuidado Personal & Salud"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#cuidado-salud-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#cuidado-salud-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#cuidado-salud-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#cuidado-salud-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal"
+    },
+    "children": [
+      "menu-item#cuidado-personal-mobile",
+      "menu-item#salud-y-bienestar-mobile"
+    ]
+  },
+  "menu-item#cuidado-personal-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "cuidado-personal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/SALUD-Y-BELLEZA/Cuidado-personal",
+        "noFollow": true,
+        "tagTitle": "Cuidado Personal",
+        "text": "Cuidado Personal"
+      }
+    }
+  },
+  "menu-item#salud-y-bienestar-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "salud-y-bienestar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/SALUD-Y-BELLEZA/Salud-y-bienestar",
+        "noFollow": true,
+        "tagTitle": "Salud y Bienestar",
+        "text": "Salud y Bienestar"
+      }
+    }
+  },
+  // FIN CUIDADO PERSONAL Y SALUD 
+  // JARDIN 
+  "menu-item#jardin-mobile": {
+    "props": {
+      "blockClass": "primario",
+      "id": "jardin",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Jardin",
+        "text": "Jardin"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#jardin-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#jardin-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#jardin-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#jardin-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal"
+    },
+    "children": [
+      "menu-item#pileta-mobile",
+      "menu-item#muebles-de-jardin-mobile",
+      "menu-item#cortadores-de-cesped-mobile",
+      "menu-item#hidrolavadoras-mobile",
+      "menu-item#bordeadoras-mobile"
+    ]
+  },
+  "menu-item#pileta-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "pileta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Camping---JARDiN/Jardin/Piletas",
+        "noFollow": true,
+        "tagTitle": "Pileta",
+        "text": "Pileta"
+      }
+    }
+  },
+  "menu-item#muebles-de-jardin-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "muebles-de-jardin",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Camping---JARDiN/Jardin/Muebles-de-Jardin",
+        "noFollow": true,
+        "tagTitle": "Muebles de Jardín",
+        "text": "Muebles de Jardín"
+      }
+    }
+  },
+  "menu-item#cortadores-de-cesped-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "cortadores-de-cesped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Camping---JARDiN/Jardin/Cortadoras-de-cesped",
+        "noFollow": true,
+        "tagTitle": "Cortadores de Césped",
+        "text": "Cortadores de Césped"
+      }
+    }
+  },
+  "menu-item#hidrolavadoras-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "hidrolavadoras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Camping---JARDiN/Jardin/Hidrolavadoras",
+        "noFollow": true,
+        "tagTitle": "Hidrolavadoras",
+        "text": "Hidrolavadoras"
+      }
+    }
+  },
+  "menu-item#bordeadoras-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "bordeadoras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Camping---JARDiN/Jardin/Bordeadoras",
+        "noFollow": true,
+        "tagTitle": "Bordeadoras",
+        "text": "Bordeadoras"
+      }
+    }
+  },
+  // FIN JARDIN 
+  // RODADOS 
+  "menu-item#rodados-mobile": {
+    "props": {
+      "blockClass": "primario",
+      "id": "rodados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Rodados",
+        "text": "Rodados"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#rodados-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#rodados-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#rodados-mobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#rodados-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-principal"
+    },
+    "children": [
+      "menu-item#bicicletas-mobile",
+      "menu-item#motos-mobile"
+    ]
+  },
+  "menu-item#bicicletas-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "bicicletas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/RODADOS/Bicicletas",
+        "noFollow": true,
+        "tagTitle": "Bicicletas",
+        "text": "Bicicletas"
+      }
+    }
+  },
+  "menu-item#motos-mobile": {
+    "props": {
+      "blockClass": "secundario",
+      "id": "motos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/RODADOS/Motos",
+        "noFollow": true,
+        "tagTitle": "Motos",
+        "text": "Motos"
+      }
+    }
   }
+  // FIN RODADOS 
 }

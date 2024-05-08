@@ -30,7 +30,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      // "vtex.menu@2.x:submenu#category-apparel"
     ]
   },
   "vtex.menu@2.x:submenu#category-apparel": {
@@ -38,7 +38,7 @@
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      // "vtex.menu@2.x:menu#category-apparel"
     ]
   },
   "vtex.menu@2.x:menu#category-apparel": {

@@ -1,5 +1,18 @@
-.searchBarContainer{
+.searchBarContainer {
+  min-width: 100%;
   width: 500px;
+  padding-top: 0px;
+}
+
+@media (max-width: 768px) {
+  .searchBarContainer {
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+.searchIcon--navbar{
+  color: #717070;
 }
 
 .imageElement--ofertas {

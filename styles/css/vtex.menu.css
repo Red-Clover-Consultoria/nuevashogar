@@ -1,6 +1,19 @@
 .menuContainerNav {
   display: flex;
   align-items: start;
+  width: 100%;
+}
+
+.accordionIcon {
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuContainer {
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -8,6 +21,16 @@
     margin: auto;
     display: block;
     margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .styledLinkContent--primario,
+  .styledLinkContent--noaccordion {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-beetween;
+    align-items: center;
+    color: #565656 !important;
   }
 }
 
@@ -18,6 +41,21 @@
   color: #9d9d9c;
   font-weight: 800;
   font-weigth: bold;
+}
+
+.styledLinkContent--primario {
+  border-bottom: 1px solid #c5c8c6;
+  padding: 5px 0px;
+}
+.styledLinkContent--secundario {
+  font-size: 15px;
+  font-weight: normal;
+  gap: 1;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-beetween;
+  align-items: center;
+  color: #565656;
 }
 
 .styledLinkContent--nosotros,
