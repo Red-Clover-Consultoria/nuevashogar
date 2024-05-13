@@ -39,41 +39,24 @@ const CalculadorCuotas = () => {
   if (data) {
     const datos = data.product.items;
 
-    const url = window.location;
-
-    let caracteres = url.href.slice(-4);
-
     let info;
 
+    const reference = document.querySelector(".vtex-product-identifier-0-x-product-identifier__value").innerHTML;
 
-    if (caracteres.includes("/p")) {
-      const reference = document.querySelector(".vtex-product-identifier-0-x-product-identifier__value").innerHTML;
+    datos.forEach(dato => {
+      // SE BUSCA POR ID DE PRODUCTO
+      if (reference === dato.itemId[product.productId] && 
+        dato.sellers[0].commertialOffer.Installments.length !== 0) {
 
-      datos.forEach(dato => {
-        // SE BUSCA POR ID DE PRODUCTO
-        if (reference === dato.itemId[product.productId] && dato.sellers[0].commertialOffer.Installments.length !== 0) {
           info = dato.sellers[0].commertialOffer.Installments;
 
-        } else {
-          info = data.product.items[0].sellers[0].commertialOffer.Installments;
+      } else {
+        info = data.product.items[0].sellers[0].commertialOffer.Installments;
 
-        }
+      }
 
-      })
-
-    } else {
-      datos.forEach(dato => {
-        let indexCaracter = url.href.indexOf("=");
-        let indexFinal = indexCaracter + 1
-        let sku = url.href.slice(indexFinal);
-
-
-        if (sku === dato.itemId && dato.sellers[0].commertialOffer.Installments.length !== 0) {
-          info = dato.sellers[0].commertialOffer.Installments;
-          // info = data.product.items[0].sellers[0].commertialOffer.Installments;
-        }
-      })
-    }
+    })
+  }
 
     const paymentMethods = info.reduce((acc, item) => {
       if (!acc.includes(item.PaymentSystemGroupName)) {
