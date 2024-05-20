@@ -322,6 +322,12 @@
   text-align: end;
 }
 
+@media only screen and (max-width: 768px) {
+  .productImagesThumbCaret--pdp{
+    display: none;
+  }
+}
+
 .caretIcon--pdp{
   width: 14px;
 }
