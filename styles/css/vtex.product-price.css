@@ -84,20 +84,21 @@
   color: #3f3f40;
   text-align: center;
   margin-bottom: 0.25rem;
-  font-size: 12px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
+  font-size: 12px; /* 0.75rem */
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 400; 
 }
+
 
 .installments--summary {
   margin: auto;
-  text-aling: center;
+  text-align: center; 
   color: #505050;
-  font-size: 12px;
+  font-size: 0.875rem; /* 14px */
   font-family: "Montserrat", sans-serif;
-  font-weight: normal;
-  font-size: 0.875rem;
+  font-weight: 400; 
 }
+
 
 .savings--summaryPercentage {
   background: #0f3e99;

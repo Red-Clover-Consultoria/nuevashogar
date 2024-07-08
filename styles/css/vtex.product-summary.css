@@ -3,20 +3,20 @@
   width: min(100%, 300px);
 }
 
-
 .element {
-  aspect-ratio: 1/1;
-  transform: scale(0.8);
+  /* Fallback para aspecto cuadrado */
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* Aspect ratio 1:1 */
+  transform: scale(0.8); 
+  -webkit-transform: scale(0.8); 
   padding: 0.2rem 0.7rem;
   border-radius: 20px;
   border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 10px 4px 14px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 10px 4px 14px rgba(0, 0, 0, 0.08);
   background: white;
-}
-
-.clearLink{
-  padding: 0;
-  margin: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround,
@@ -39,7 +39,7 @@
   }
 }
 
-.nameContainer :global(.vtex-product-summary-2-x-productBrand){
+.nameContainer :global(.vtex-product-summary-2-x-productBrand) {
   justify-content: center;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
