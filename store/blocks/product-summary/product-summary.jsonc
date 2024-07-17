@@ -3,6 +3,7 @@
     "children": [
       "stack-layout#prodsum",
       "vtex.store-components:product-brand",
+      
       "product-summary-name",
       // "flex-layout.col#productRating",
       "product-list-price#summary",
@@ -28,6 +29,7 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
+      "portal#pdp--portal-cucardas",
       // "vtex.product-highlights@2.x:product-highlights#collection",
       "product-price-savings#summary",
       "modal-trigger#quickview" // Check quickview.jsonc

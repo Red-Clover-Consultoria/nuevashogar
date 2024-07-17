@@ -219,6 +219,7 @@
     },
     "children": [
       "flex-layout.row#product-image",
+      "flex-layout.row#main-shelf--top-row-pdp",
       "product-bookmark",
       "product-specification-badges"
     ]

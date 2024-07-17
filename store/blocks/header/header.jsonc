@@ -14,7 +14,9 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "sticky-layout#4-desktop"
+      "sticky-layout#4-desktop",
+      "flex-layout.row#cucardas--pdp",
+      "flex-layout.row#cucardas--vitrinas"
     ]
   },
   "flex-layout.row#1-desktop": {
@@ -106,7 +108,9 @@
   },
   "header-layout.mobile": {
     "children": [
-      "sticky-layout#1-mobile"
+      "sticky-layout#1-mobile",
+      "flex-layout.row#cucardas--pdp",
+      "flex-layout.row#cucardas--vitrinas"
     ]
   },
   "sticky-layout#1-mobile": {
