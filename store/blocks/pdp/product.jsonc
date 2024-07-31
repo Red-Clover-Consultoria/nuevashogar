@@ -394,17 +394,48 @@
       "blockClass": "info-availability"
     },
     "children": [
+      "vtex.store-components:product-brand#pdp",
       "flex-layout.row#product-name",
       "product-identifier.product",
-      "sku-selector",
-      "flex-layout.row#availability"
+      "product-list-price#preciosinstock",
+      "product-selling-price#preciosinstock",
+      "image#pdp-availability"
     ]
   },
+
+  "product-list-price#preciosinstock":{
+    "props":{
+      "blockClass": "sinstock",
+      "message": "{listPriceValue}",
+      "alwaysShow": true
+    }
+  },
+  "product-selling-price#preciosinstock":{
+    "props":{
+      "blockClass": "sinstock",
+      "message": "{sellingPriceValue}",
+      "alwaysShow": true
+    }
+  },
+
+
+
+  "image#pdp-availability": {
+    "props": {
+      "src": "https://nuevashogarar.vtexassets.com/assets/vtex.file-manager-graphql/images/20a59dc1-725f-495e-b8f9-d95f7aec4c7f___5c1ddae57034e17b92a80a5508b6794e.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint",
+      "link":"https://api.whatsapp.com/send/?phone=5492325513455&text=Hola%21+Quisiera+hacer+una+consulta&type=phone_number&app_absent=0"
+    }
+  },
+
   "flex-layout.row#availability": {
     "props": {
       "blockClass": "message-availability"
     },
     "children": [
+
       "availability-subscriber"
     ]
   },

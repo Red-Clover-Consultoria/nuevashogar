@@ -5,6 +5,12 @@
   font-weight: 900;
   color: #0066b2;
 }
+.flexCol--info-availability{
+  padding: 1rem;
+  border-radius: 17px;
+  box-shadow: 10px 4px 14px 0px rgba(0, 0, 0, 0.08);
+  background: white;
+}
 
 .flexCol--right-col {
   padding: 1rem;
@@ -98,7 +104,7 @@
 
 @media only screen and (max-width: 768px) {
   .flexRow--deals {
-    background-color: transparent; 
+    background-color: transparent;
   }
 }
 
@@ -187,8 +193,11 @@
   padding-left: 0 !important;
   margin: 0 !important;
 }
+.flexColChild--info-availability{
+  margin-top: 10px;
+}
 
-/* 
+/*
 @media only screen and (max-width: 1025px) {
   .flexRow--footer-bottom {
     padding: 12px 8px;
